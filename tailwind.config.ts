@@ -13,6 +13,11 @@ export default {
         "serif-sc": ["Playfair Display SC", "serif"],
         minion: ["Minion Pro", "serif"],
       },
+      colors: {
+        dark: "#292929",   // dark background
+        beige: "#e9d7c8",  // light beige accent
+        brown: "#806863",  // earthy brown secondary
+      },
     },
   },
 } satisfies Config;
