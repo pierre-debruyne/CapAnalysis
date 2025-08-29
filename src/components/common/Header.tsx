@@ -15,7 +15,7 @@ export default function Header() {
         />
 
         {/* Navigation */}
-        <nav className="absolute left-1/2 -translate-x-1/2 flex gap-[61px]">
+        <nav className="absolute left-1/2 -translate-x-1/2 flex gap-[51px]">
           <NavItem
             label="Our Expertise"
             children={[
