@@ -7,7 +7,7 @@ export default function Header() {
       <div className="relative flex items-center">
         {/* Logo */}
         <Image
-          src="/images/logo.svg"
+          src="/assets/icons/logo.svg"
           alt="Logo"
           width={260}
           height={56}
