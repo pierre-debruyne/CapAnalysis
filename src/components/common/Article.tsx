@@ -56,7 +56,7 @@ export default function Article({ imgSrc, imgAlt, title, text, text2, posted, ha
           </p>
         </div>
 
-        <Button>READ ARTICLE</Button>
+        <Button className="w-[115px]">READ ARTICLE</Button>
       </div>
     </div>
   );
