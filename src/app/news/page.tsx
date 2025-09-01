@@ -1,4 +1,5 @@
 import Article from "@/components/common/Article";
+import Footer from "@/components/common/Footer";
 
 export default function News() {
   return (
@@ -48,6 +49,8 @@ export default function News() {
           posted={"Control"}
         />
       </div>
+
+      <Footer />
     </div>
   );
 }

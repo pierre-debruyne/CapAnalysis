@@ -1,3 +1,4 @@
+import Footer from "@/components/common/Footer";
 import Hero from "@/components/common/Hero";
 
 export default function PortfolioMonitoringMentorship() {
@@ -9,6 +10,7 @@ export default function PortfolioMonitoringMentorship() {
         title={`Portfolio Monitoring\n& Mentorship`}
         text={`Wealth needs guardianship,\nnot just management.`}
       />
+      <Footer />
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import Footer from "@/components/common/Footer";
 import Hero from "@/components/common/Hero";
 
 export default function CapactInnovationSoftwarePerformanceInvestments() {
@@ -9,6 +10,8 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
         title="Uncovering the truth behind your wealth management"
         text="Financial bodyguard & independent forensic analysis"
       />
+
+      <Footer />
     </div>
   );
 }
