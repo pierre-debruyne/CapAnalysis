@@ -5,9 +5,10 @@ type HeroProps = {
   imgAlt?: string
   title: string
   text: string
+  imgPosition?: string; 
 }
 
-export default function Hero({ imgSrc, imgAlt, title, text }: HeroProps) {
+export default function Hero({ imgSrc, imgAlt, title, text, imgPosition }: HeroProps) {
   return (
     <div className="w-full h-[692px] relative overflow-x-clip">
       <div className="hidden md:flex w-full h-full">
@@ -16,7 +17,7 @@ export default function Hero({ imgSrc, imgAlt, title, text }: HeroProps) {
             src={imgSrc}
             alt={imgAlt || title}
             fill
-            className="object-cover"
+            className={["object-cover", imgPosition].filter(Boolean).join(" ")}
           />
         </div>
         <div className="bg-dark w-[31%]" />
