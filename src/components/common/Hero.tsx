@@ -4,7 +4,7 @@ type HeroProps = {
   imgSrc: string
   imgAlt?: string
   title: string
-  text: string
+  text?: string
   imgPosition?: string; 
 }
 
@@ -17,7 +17,7 @@ export default function Hero({ imgSrc, imgAlt, title, text, imgPosition }: HeroP
             src={imgSrc}
             alt={imgAlt || title}
             fill
-            className={["object-cover", imgPosition].filter(Boolean).join(" ")}
+            className={["object-cover bg-dark", imgPosition].filter(Boolean).join(" ")}
           />
         </div>
         <div className="bg-dark w-[31%]" />
