@@ -80,7 +80,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
               </div>
             </div>
 
-            <div className="flex-1 max-w-[360px] pl-[45px]">
+            <div className="flex-1 max-w-[360px] px-[45px]">
               <div className="max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Risk Assessment
