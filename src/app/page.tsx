@@ -24,12 +24,12 @@ export default function Home() {
         </span>
       </div>
 
-      <div className="flex gap-1 w-full mb-[45px]">
+      <div className="flex flex-col xl:flex-row gap-1 w-full lg:mb-[45px]">
         {/*   Portfolio Monitoring & Mentorship */}
-        <div className="bg-[#F8F1EC] w-full py-[37px]">
-          <div className="ml-[221px]">
+        <div className="bg-[#F8F1EC] w-full py-[37px] px-5 lg:px-0">
+          <div className="lg:ml-[221px]">
             <div className="mb-5">
-              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight">
+              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-center lg:text-start">
                 Portfolio Monitoring
                 <br />& Mentorship
               </h2>
@@ -76,10 +76,10 @@ export default function Home() {
         </div>
 
         {/*  FORENSIC FINANCIAL  ANALYSIS */}
-        <div className="bg-[#F8F1EC] w-full py-[37px]">
-          <div className="ml-[221px]">
+        <div className="bg-[#F8F1EC] w-full py-[37px] px-5 lg:px-0">
+          <div className="lg:ml-[221px]">
             <div className="mb-5">
-              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight">
+              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-center lg:text-start">
                 FORENSIC FINANCIAL
                 <br />
                 ANALYSIS
@@ -127,7 +127,7 @@ export default function Home() {
       </div>
 
       <div className="bg-dark w-full px-[50px] py-[37px]">
-        <div className="flex">
+        <div className="flex flex-col 2xl:flex-row items-center">
           <Image
             src="/assets/images/CAPAct_home.png"
             alt=""
@@ -136,7 +136,7 @@ export default function Home() {
             className="object-contain"
             priority
           />
-          <div className="w-full mt-[56px] flex flex-col items-center">
+          <div className="w-full flex flex-col items-center">
             <h2 className="text-beige font-serif font-normal text-[35px] text-center">
               CAPAct,
               <br /> the forensic core of <br /> every investigation.
@@ -159,7 +159,7 @@ export default function Home() {
           <br /> in investment portfolios.
         </h2>
 
-        <div className="grid grid-cols-3 grid-rows-2 gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
+        <div className="grid 2xl:grid-cols-3 lg:grid-cols-2  grid-rows-2 gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
           <InfoBlock
             UppercaseText={"Rebuilds full investment history"}
             LowercaseText={
@@ -208,18 +208,18 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative w-full h-[415px] mb-[9px]">
+      <div className="relative w-full lg:h-[415px] mb-[9px]">
         <Image
           src="/assets/images/Slide-2-1.jpg"
           alt=""
           fill
-          className="object-cover"
+          className="object-cover hidden lg:block "
           priority
         />
 
         {/* Texte en overlay */}
-        <div className="absolute inset-0 flex justify-start items-center gap-[140px] ml-[189px]">
-          <div className="flex flex-col items-center max-w-[330px]">
+        <div className="lg:absolute inset-0 h-full flex flex-col lg:flex-row gap-5 bg-[#F8F1EC] py-10 lg:p-0 lg:bg-transparent justify-center lg:justify-start items-center lg:gap-[140px] lg:ml-[189px]">
+          <div className="flex flex-col items-center max-w-[330px] mx-auto lg:m-0">
             <h2 className="text-[35px] text-dark font-serif text-center leading-11">
               The real risk isn’t underperformance, it’s misinformation
             </h2>
@@ -229,14 +229,14 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-col items-start max-w-[330px]">
-            <p className="text-[16px] text-[#806863] font-sans font-light mb-[18px]">
+          <div className="flex flex-col items-start max-w-[330px] mx-auto lg:m-0">
+            <p className="text-[16px] text-[#806863] font-sans text-center lg:text-start font-light mb-[18px]">
               CAPAnalysis uncovers the underlying reality of investment
               decisions: identifying misalignments and quantifying their
               financial impact. For clients, counsel, and family offices facing
               complexity, we deliver what the institutions won’t:
             </p>
-            <ul className="list-disc pl-5 space-y-1">
+            <ul className="list-disc pl-5 space-y-1 ">
               <li className="font-normal font-sans text-[16px] text-[#806863] mb-[3px]">
                 Impartial and unbiased analysis
               </li>
