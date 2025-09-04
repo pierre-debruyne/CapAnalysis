@@ -28,7 +28,7 @@ export default function Profil({
     mail,
   }: ProfilProps) {
     return (
-      <div className="flex gap-[48px] max-w-[584px]">
+      <div className="flex sm:flex-row flex-col gap-[48px] xl:max-w-[584px] ">
         <div>
           {imgSrc ? (
             <Image
@@ -68,7 +68,7 @@ export default function Profil({
           </div>
         </div>
 
-        <div className="flex flex-col justify-start max-w-[334px]">
+        <div className="flex flex-col justify-start xl:max-w-[334px] sm:w-2/3">
           <h2 className="font-serif text-[23px] font-normal mb-[16px]">{name}</h2>
           <span className="font-sans font-semibold">{job}</span>
           <span className="font-sans font-semibold whitespace-pre-line mb-[10px]">{title_job}</span>
