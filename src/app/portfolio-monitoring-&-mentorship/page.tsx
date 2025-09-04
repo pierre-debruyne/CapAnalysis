@@ -24,7 +24,7 @@ export default function PortfolioMonitoringMentorship() {
           – always.
         </p>
 
-        <div className="grid grid-cols-3 grid-rows-2 gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
+        <div className="grid 2xl:grid-cols-3 lg:grid-cols-2  grid-rows-2 gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
           <InfoBlock
             UppercaseText={"Portfolio Oversight\n & Health Checks\n"}
             LowercaseText={
@@ -56,9 +56,9 @@ export default function PortfolioMonitoringMentorship() {
         </div>
       </div>
 
-      <div className="flex gap-1 w-full pb-1">
+      <div className="flex flex-col xl:flex-row gap-1 w-full pb-1">
         <div className="bg-[#F8F1EC] w-full  py-[65px]">
-          <div className="max-w-[360px] mx-auto">
+          <div className="xl:max-w-[360px] p-5 xl:p-0 mx-auto">
             <h3 className="text-[23px] font-normal font-serif pb-[19px]">
               Are your investments in line with your decisions?
             </h3>
@@ -75,7 +75,7 @@ export default function PortfolioMonitoringMentorship() {
           </div>
         </div>
         <div className="bg-[#F8F1EC] w-full py-[65px]">
-          <div className="max-w-[490px] mx-auto">
+          <div className="xl:max-w-[490px] p-5 xl:p-0 mx-auto">
             <h3 className="font-normal font-serif text-[23px] pb-[19px]">
               An efficient monitoring
             </h3>
@@ -103,9 +103,9 @@ export default function PortfolioMonitoringMentorship() {
           <h2 className="text-center text-[23px] font-serif font-normal">
             Verification - Assessment - Comparison
           </h2>
-          <div className="flex justify-between w-full mx-auto max-w-[1166px] py-[35px] divide-x-[0.6px] divide-[#BAACA9]">
-            <div className="flex-1 max-w-[360px] pr-[45px]">
-              <div className="max-w-[297px]">
+          <div className="flex flex-col gap-5 xl:gap-0 xl:flex-row items-center xl:justify-between w-full mx-auto max-w-[1166px] py-[35px] xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
+            <div className="flex-1 max-w-[360px] xl:pr-[45px] text-center lg:text-start">
+              <div className="xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Risks
                 </div>
@@ -117,8 +117,8 @@ export default function PortfolioMonitoringMentorship() {
               </div>
             </div>
 
-            <div className="flex-1 max-w-[360px] px-[45px]">
-              <div className="max-w-[297px]">
+            <div className="flex-1 max-w-[360px] xl:px-[45px] text-center lg:text-start">
+              <div className="xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Performance
                 </div>
@@ -129,8 +129,8 @@ export default function PortfolioMonitoringMentorship() {
               </div>
             </div>
 
-            <div className="flex-1 max-w-[360px] pl-[45px]">
-              <div className="max-w-[297px]">
+            <div className="flex-1 max-w-[360px] xl:pl-[45px] text-center lg:text-start">
+              <div className="xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Fees & Taxes
                 </div>
@@ -161,9 +161,9 @@ export default function PortfolioMonitoringMentorship() {
           and volume of the following elements:
         </p>
 
-        <div className="flex text-start justify-between w-full mx-auto max-w-[1472px] py-[70px] divide-x-[0.6px] divide-[#BAACA9]">
-          <div className="flex-1 max-w-[294px] pr-[45px]">
-            <div className="max-w-[294px]">
+        <div className="flex flex-col 2xl:flex-row text-start items-center gap-5 2xl:gap-0 justify-between w-full mx-auto max-w-[1472px] py-[70px] 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]">
+          <div className="flex-1 w-2/3 2xl:max-w-[294px] 2xl:pr-[45px]">
+            <div className="2xl:max-w-[294px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 CUSTODIANS
               </div>
@@ -176,8 +176,8 @@ export default function PortfolioMonitoringMentorship() {
             </div>
           </div>
 
-          <div className="flex-1 max-w-[294px]">
-            <div className="max-w-[294px] px-[34px]">
+          <div className="flex-1 w-2/3 2xl:max-w-[294px]">
+            <div className="2xl:max-w-[294px] 2xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 PORTFOLIOS
               </div>
@@ -193,8 +193,8 @@ export default function PortfolioMonitoringMentorship() {
             </div>
           </div>
 
-          <div className="flex-1 max-w-[294px]">
-            <div className="max-w-[294px] px-[34px]">
+          <div className="flex-1 w-2/3 2xl:max-w-[294px]">
+            <div className="2xl:max-w-[294px] 2xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 INSTRUMENTS
               </div>
@@ -205,8 +205,8 @@ export default function PortfolioMonitoringMentorship() {
             </div>
           </div>
 
-          <div className="flex-1 max-w-[294px]">
-            <div className="max-w-[294px] px-[34px]">
+          <div className="flex-1 w-2/3 2xl:max-w-[294px]">
+            <div className="2xl:max-w-[294px] 2xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 TRANSACTIONS
               </div>
@@ -218,8 +218,8 @@ export default function PortfolioMonitoringMentorship() {
             </div>
           </div>
 
-          <div className="flex-1 max-w-[294px]">
-            <div className="max-w-[294px] px-[34px]">
+          <div className="flex-1 w-2/3 2xl:max-w-[294px]">
+            <div className=" 2xl:max-w-[294px] 2xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 TYPE OF REPORTS
               </div>
@@ -228,13 +228,14 @@ export default function PortfolioMonitoringMentorship() {
               </p>
               <ul className="font-sans font-light text-[16px] text-[#806863]">
                 <li>
-                  <span className="font-semibold text-[16px]">Analytical</span> snapshots
-                  highlighting key performance drivers and notable financial
-                  events
+                  <span className="font-semibold text-[16px]">Analytical</span>{" "}
+                  snapshots highlighting key performance drivers and notable
+                  financial events
                 </li>
                 <li>
                   <span className="font-semibold text-[16px]">
-                    In-depth analyses detailing<br/>
+                    In-depth analyses detailing
+                    <br />
                   </span>
                   performance attribution and risk exposure across your
                   investments
