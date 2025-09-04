@@ -18,7 +18,7 @@ export default function Header() {
   }, [])
 
   return (
-    <header className="bg-dark px-4 lg:px-[41px] pt-5 lg:pt-7 pb-4 lg:pb-[19px]">
+    <header className="bg-dark lg:px-[41px] py-5 lg:pt-7 px-4 lg:pb-[19px]">
       <div className="relative flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="shrink-0">
@@ -40,7 +40,7 @@ export default function Header() {
           className="lg:hidden inline-flex items-center justify-center rounded-md p-2 ring-1 ring-white/20"
           onClick={() => setOpen((v) => !v)}
         >
-          {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          {open ? <X className="h-6 w-6 text-white" /> : <Menu className="h-6 w-6 text-white" />}
         </button>
 
         {/* Navigation desktop */}
@@ -73,7 +73,7 @@ export default function Header() {
         role="dialog"
         aria-modal="true"
       >
-        <div className="flex items-center justify-between px-4 py-4 border-b border-white/10">
+        <div className="flex items-center justify-between px-4 py-5 border-b border-white/10">
           <Link href="/" onClick={() => setOpen(false)} className="shrink-0">
             <Image
               src="/assets/icons/logo.svg"
@@ -90,11 +90,11 @@ export default function Header() {
             className="inline-flex items-center justify-center rounded-md p-2 ring-1 ring-white/20"
             onClick={() => setOpen(false)}
           >
-            <X className="h-6 w-6" />
+            <X className="h-6 w-6 text-white" />
           </button>
         </div>
 
-        <nav className="px-4 py-3 space-y-2">
+        <nav className="px-4 py-3 space-y-2 text-white">
           <MobileLink href="/portfolio-monitoring-&-mentorship" onClick={() => setOpen(false)}>
             Portfolio Monitoring & Mentorship
           </MobileLink>
