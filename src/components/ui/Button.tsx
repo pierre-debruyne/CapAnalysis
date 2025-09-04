@@ -1,4 +1,4 @@
-import clsx from "clsx"
+import { cn } from "@/lib/cn"
 import { ChevronRight, Plus } from "lucide-react"
 import { ReactNode } from "react"
 
@@ -10,7 +10,7 @@ type ButtonProps = {
 export default function Button({ className, children }: ButtonProps) {
   return (
     <button
-      className={clsx(
+      className={cn(
         "flex cursor-pointer items-center uppercase gap-2 text-[11px] font-sans font-light px-1 min-h-[25px] border border-[#BAACA9] text-[#806863] transition-colors duration-200",
         className
       )}
