@@ -25,9 +25,9 @@ export default function ForensicFinancialAnalysis() {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 grid-rows-2 pb-[48px] gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
+      <div className="grid 2xl:grid-cols-3 lg:grid-cols-2  grid-rows-2  pb-[48px] gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
         <InfoBlock
-          UppercaseText={"Damage Calculation"}
+          UppercaseText={"Damage Calculation\n"}
           LowercaseText={
             "Using our proprietary tool CAPAct tool, we quantify financial harm in cases of mismanagement, hidden fees, and strategy drift."
           }
@@ -57,15 +57,15 @@ export default function ForensicFinancialAnalysis() {
         />
       </div>
 
-      <div className="flex gap-1 w-full">
-        <div className="bg-[#F8F1EC] w-full  py-[65px]">
-          <div className="max-w-[417px] mx-auto">
+      <div className="flex flex-col xl:flex-row gap-1 w-full pb-1">
+        <div className="bg-[#F8F1EC] w-full py-[65px]">
+          <div className="xl:max-w-[417px] lg:w-1/2 p-5 xl:p-0 mx-auto">
             <h3 className="text-[23px] font-normal font-serif pb-[19px]">
               We regularly assist Law Firms in cases which involve:
             </h3>
 
-            <div className="flex text-[#806863] font-light font-sans text-[16px]">
-              <ul className="list-disc list-outside pl-5 w-2/4">
+            <div className="flex flex-col lg:flex-row text-[#806863] font-light font-sans text-[16px]">
+              <ul className="list-disc list-outside pl-5 lg:w-2/4">
                 <li>Churning</li>
                 <li>Leverage</li>
                 <li>Disloyal management</li>
@@ -85,11 +85,11 @@ export default function ForensicFinancialAnalysis() {
           </div>
         </div>
         <div className="bg-[#F8F1EC] w-full py-[65px]">
-          <div className="max-w-[417px] mx-auto">
+          <div className="xl:max-w-[417px] lg:w-1/2 p-5 xl:p-0 mx-auto">
             <h3 className="font-normal font-serif text-[23px] pb-[19px]">
               We are proficient in several technical products involving:
             </h3>
-            <div className="flex justify-between text-[#806863] font-light font-sans text-[16px]">
+            <div className="flex flex-col lg:flex-row justify-between text-[#806863] font-light font-sans text-[16px]">
               <ul className="list-disc list-outside pl-5">
                 <li>
                   Structured products: RKOF, Pivot, TARF, TARPF, BRC, etc.
@@ -112,7 +112,7 @@ export default function ForensicFinancialAnalysis() {
         </div>
       </div>
 
-      <div className="bg-dark py-[49px]">
+      <div className="bg-dark py-[49px] px-5 2xl:px-0">
         <div className="max-w-[564px] mx-auto text-[23px] text-white text-center">
           <p className="mb-[15px]">
             The development of CAPAct enables us to perform a variety of
@@ -131,9 +131,9 @@ export default function ForensicFinancialAnalysis() {
           <h2 className="text-center text-[23px] font-serif font-normal">
             Our Role as Forensic Financial Experts:
           </h2>
-          <div className="flex justify-between w-full mx-auto max-w-[1450px] py-[35px] divide-x-[0.6px] divide-[#BAACA9]">
-            <div className="flex-1 max-w-[360px] pr-[45px]">
-              <div className="max-w-[297px]">
+          <div className="flex flex-col 2xl:flex-row text-start items-center gap-5 2xl:gap-0 justify-between w-full mx-auto max-w-[1450px] py-[35px] 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]">
+            <div className="flex-1 w-2/3 2xl:max-w-[360px] 2xl:pr-[45px]">
+              <div className="2xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Portfolio Consolidation
                 </div>
@@ -144,8 +144,8 @@ export default function ForensicFinancialAnalysis() {
               </div>
             </div>
 
-            <div className="flex-1 max-w-[360px] px-[45px]">
-              <div className="max-w-[297px]">
+            <div className="flex-1 w-2/3 2xl:max-w-[360px] 2xl:px-[45px]">
+              <div className="2xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Preliminary Report
                 </div>
@@ -157,8 +157,8 @@ export default function ForensicFinancialAnalysis() {
               </div>
             </div>
 
-            <div className="flex-1 max-w-[360px] pl-[45px]">
-              <div className="max-w-[297px]">
+            <div className="flex-1 w-2/3 2xl:max-w-[360px] 2xl:pl-[45px]">
+              <div className="2xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Damage Assessment
                 </div>
@@ -169,8 +169,8 @@ export default function ForensicFinancialAnalysis() {
               </div>
             </div>
 
-            <div className="flex-1 max-w-[360px] pl-[45px]">
-              <div className="max-w-[297px]">
+            <div className="flex-1 w-2/3 2xl:max-w-[360px] 2xl:pl-[45px]">
+              <div className="2xl:max-w-[297px]">
                 <div className="text-[15px] font-sans font-semibold">
                   Final Expert Report
                 </div>
@@ -185,7 +185,7 @@ export default function ForensicFinancialAnalysis() {
         </div>
       </div>
 
-      <div className="bg-white py-[60px] h-full text-center">
+      <div className="bg-white py-[60px] px-5 2xl:px-0 h-full text-center">
         <div className="max-w-[420px] h-full mx-auto">
           <h2 className="text-[35px] font-serif text-[#292929] leading-11 pb-[10px]">
             Pricing
