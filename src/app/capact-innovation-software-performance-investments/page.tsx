@@ -11,9 +11,9 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
       />
 
       <div className="pt-[45px] pb-[55px]">
-        <div className="max-w-[692px] mx-auto flex gap-[40px]">
-          <div className="font-normal font-serif text-[35px] w-1/2 text-center flex flex-col justify-end">
-            <p className="leading-10 pb-[5px]">
+        <div className="lg:max-w-[692px] mx-auto flex flex-col lg:flex-row gap-[40px] px-5 lg:p-0">
+          <div className="font-normal font-serif text-[35px] lg:w-1/2 text-center flex flex-col justify-end">
+            <p className="leading-10 lg:pb-[5px] pb-5">
               At the heart of CAPAnalysis lies CAPAct, our proprietary software
               developed in-house to deliver high-precision financial analysis.
             </p>
@@ -23,7 +23,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
               every detail of your transactions.
             </p>
           </div>
-          <div className="font-light font-sans text-[#806863] text-[16px] w-1/2 flex gap-[13px] flex-col">
+          <div className="font-light font-sans text-[#806863] text-[16px] lg:w-1/2 flex gap-[13px] flex-col">
             <p>This methodology applies to two categories of assets:</p>
             <p>
               Financial Investments: All publicly traded instruments on global
@@ -54,9 +54,9 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
             Our analysis brings factual financial <br /> context to your
             managers’ performances
           </h2>
-          <div className="flex justify-between w-full mx-auto max-w-[1250px] py-[35px] divide-x-[0.6px] divide-[#BAACA9]">
-            <div className="flex-1 max-w-[360px] pr-[45px]">
-              <div className="max-w-[297px]">
+          <div className="flex flex-col gap-5 xl:gap-0 xl:flex-row items-center xl:justify-between w-full mx-auto max-w-[1250px] py-[35px] xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
+            <div className="flex-1 xl:max-w-[360px] xl:pr-[45px] w-2/3">
+              <div className="xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Efficiency
                 </div>
@@ -67,8 +67,8 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
               </div>
             </div>
 
-            <div className="flex-1 max-w-[360px] px-[45px]">
-              <div className="max-w-[297px]">
+            <div className="flex-1 xl:max-w-[360px] xl:px-[45px] w-2/3">
+              <div className="xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Innovation
                 </div>
@@ -80,8 +80,8 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
               </div>
             </div>
 
-            <div className="flex-1 max-w-[360px] px-[45px]">
-              <div className="max-w-[297px]">
+            <div className="flex-1 xl:max-w-[360px] xl:px-[45px] w-2/3">
+              <div className="xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Risk Assessment
                 </div>
@@ -92,8 +92,8 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
               </div>
             </div>
 
-            <div className="flex-1 max-w-[360px] pl-[45px]">
-              <div className="max-w-[297px]">
+            <div className="flex-1 xl:max-w-[360px] xl:pl-[45px] w-2/3">
+              <div className="xl:max-w-[297px]">
                 <div className="text-[15px] font-sans font-semibold">
                   Fees & Taxes
                 </div>
@@ -108,14 +108,14 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
         </div>
       </div>
 
-      <div className="pt-[51px] text-center">
+      <div className="pt-[51px] text-center w-full">
         <h2 className="text-[23px] font-serif font-normal pb-[19px]">
           Our safety measures
         </h2>
         <div className="font-sans font-light text-[16px] text-[#806863] pb-[8px]">
           Your data is safe with us.
         </div>
-        <p className="font-sans font-light text-[16px] text-[#806863]">
+        <p className="font-sans font-light text-[16px] text-[#806863] text-center px-5 2xl:px-0">
           CAPAnalysis adheres strictly to Swiss banking secrecy laws and treats
           <br />
           all client information with the highest level of confidentiality. To
@@ -123,9 +123,9 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
           your data remains secure, we apply the following key principles:
         </p>
 
-        <div className="flex text-start justify-between w-full mx-auto max-w-[1250px] py-[70px] divide-x-[0.6px] divide-[#BAACA9]">
-          <div className="flex-1 max-w-[294px] pr-[45px]">
-            <div className="max-w-[294px]">
+        <div className="flex flex-col gap-5 xl:gap-0 xl:flex-row items-center xl:justify-between w-full mx-auto max-w-[1250px] py-[70px] xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
+          <div className="flex-1 xl:max-w-[294px] xl:pr-[45px] w-2/3 text-start">
+            <div className="xl:max-w-[294px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 Absolute Discretion
               </div>
@@ -136,8 +136,8 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
             </div>
           </div>
 
-          <div className="flex-1 max-w-[294px]">
-            <div className="max-w-[294px] px-[34px]">
+          <div className="flex-1 xl:max-w-[294px] w-2/3 text-start">
+            <div className="xl:max-w-[294px] xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 Data Consolidation in Switzerland
               </div>
@@ -148,12 +148,12 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
             </div>
           </div>
 
-          <div className="flex-1 max-w-[294px]">
-            <div className="max-w-[294px] px-[34px]">
+          <div className="flex-1 xl:max-w-[294px] w-2/3 text-start">
+            <div className="xl:max-w-[294px] xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 Secure Data Handling Process
               </div>
-              <p className="font-sans font-light text-[16px] text-[#806863]">
+              <p className="font-sans font-light text-[16px] text-[#806863] pb-2 xl:pb-0">
                 Our process includes three key steps:
               </p>
               <ul className="list-disc list-outside pl-5 font-sans font-light text-[16px] text-[#806863]">
@@ -167,8 +167,8 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
             </div>
           </div>
 
-          <div className="flex-1 max-w-[294px]">
-            <div className="max-w-[294px] px-[34px]">
+          <div className="flex-1 xl:max-w-[294px] w-2/3 text-start">
+            <div className="xl:max-w-[294px] xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 Highly Secured Infrastructure
               </div>
