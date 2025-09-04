@@ -11,19 +11,19 @@ type HeroProps = {
 export default function Hero({ imgSrc, imgAlt, title, text, imgPosition }: HeroProps) {
   return (
     <div className="w-full h-[692px] relative overflow-x-clip">
-      <div className="hidden md:flex w-full h-full">
-        <div className="w-[69%] relative h-full">
+      <div className="w-full lg:flex h-full">
+        <div className="xl:w-[69%] w-full relative h-full">
           <Image
             src={imgSrc}
             alt={imgAlt || title}
             fill
-            className={["object-cover bg-dark", imgPosition].filter(Boolean).join(" ")}
+            className={["object-cover bg-dark" , imgPosition].filter(Boolean).join(" ")}
           />
         </div>
-        <div className="bg-dark w-[31%]" />
+        <div className="bg-dark w-[31%] xl:block hidden" />
       </div>
 
-      <div className="absolute right-0 top-[142px] bottom-[95px] w-[54%] bg-dark rounded-s-[230px] flex flex-col justify-center overflow-hidden pl-[45px] pt-[35px] box-border">
+      <div className="absolute right-0 top-[142px] bottom-[95px] xl:w-[54%] bg-dark rounded-s-[230px] flex flex-col justify-center overflow-hidden pl-[45px] pt-[35px] box-border">
         <Image
           className="mt-[31px]"
           src="/assets/images/logo.png"
@@ -33,14 +33,14 @@ export default function Hero({ imgSrc, imgAlt, title, text, imgPosition }: HeroP
           unoptimized
         />
 
-<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-full">
-  <h2 className="whitespace-pre-line w-full text-beige text-[60px] pb-[45px] font-serif font-normal leading-none">
-    {title}
-  </h2>
-  <p className="whitespace-pre-line text-beige text-[21px] mx-20 font-sans font-light leading-none">
-    {text}
-  </p>
-</div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-full">
+          <h2 className="whitespace-pre-line w-full text-beige text-[35px] xl:text-[60px] pb-[45px] font-serif font-normal leading-none">
+            {title}
+          </h2>
+          <p className="whitespace-pre-line text-beige text-[21px] mx-20 font-sans font-light leading-none">
+            {text}
+          </p>
+        </div>
       </div>
     </div>
   );
