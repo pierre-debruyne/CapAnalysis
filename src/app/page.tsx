@@ -149,7 +149,7 @@ export default function Home() {
           </div>
 
           <div className="w-full flex flex-col items-center">
-            <h2 className="text-beige font-serif font-normal text-[35px] text-center">
+            <h2 className=" font-serif font-normal text-[35px] text-center text-white">
               CAPAct,
               <br /> the forensic core of <br /> every investigation.
             </h2>
