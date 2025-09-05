@@ -1,5 +1,5 @@
 import Footer from "@/components/common/Footer";
-import Profil from "@/components/common/profil";
+import Profil from "@/components/common/Profil";
 import React from "react";
 
 export default function Team() {
