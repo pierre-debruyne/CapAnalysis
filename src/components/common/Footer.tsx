@@ -14,21 +14,24 @@ export default function Footer() {
       </div>
       <div className="flex gap-2">
         <Smartphone className="text-brown hidden lg:block" />
-        <Link href="tel:+ 41 (0) 22 321 90 90" className="text-[16px] font-sans font-light text-white hover:underline">
+        <Link
+          href="tel:+ 41 (0) 22 321 90 90"
+          className="text-[16px] font-sans font-light text-white hover:underline"
+        >
           + 41 (0) 22 321 90 90
         </Link>
       </div>
       <div className="flex gap-2">
         <AtSign className="text-brown hidden lg:block" />
         <a
-          href="mailto:contact@exemple.com"
+          href="mailto:info@capanalysis.ch"
           className="hover:underline text-[16px] font-sans font-light text-white"
         >
           info@capanalysis.ch
         </a>
       </div>
-      <Link href={'https://fr.linkedin.com/company/capanalysis-sa'}>
-      <Linkedin className="text-brown" />
+      <Link href={"https://fr.linkedin.com/company/capanalysis-sa"}>
+        <Linkedin className="text-brown" />
       </Link>
     </div>
   );
