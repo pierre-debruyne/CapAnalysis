@@ -171,7 +171,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="pt-[67px] pb-[48px]">
+      <div className="pt-[67px] pb-[48px] px-[50px]">
         <h2 className="text-[35px] font-serif text-center text-[#292929] pb-[67px]">
           Uncovering conflicts, costs, and mismanagement
           <br /> in investment portfolios.
