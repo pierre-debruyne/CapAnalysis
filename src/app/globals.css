@@ -13,90 +13,14 @@ html, body {
   height: 100%;
 }
 
-/* Montserrat */
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Light.otf") format("opentype");
-  font-weight: 300; font-style: normal; font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Regular.otf") format("opentype");
-  font-weight: 400; font-style: normal; font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-SemiBold.otf") format("opentype");
-  font-weight: 600; font-style: normal; font-display: swap;
-}
 
-/* Playfair Display */
-@font-face {
-  font-family: "Playfair Display";
-  src: url("/fonts/PlayfairDisplay-Regular.otf") format("opentype");
-  font-weight: 400; font-style: normal; font-display: swap;
-}
-@font-face {
-  font-family: "Playfair Display";
-  src: url("/fonts/PlayfairDisplay-Italic.otf") format("opentype");
-  font-weight: 400; font-style: italic; font-display: swap;
-}
-@font-face {
-  font-family: "Playfair Display";
-  src: url("/fonts/PlayfairDisplay-Bold.otf") format("opentype");
-  font-weight: 700; font-style: normal; font-display: swap;
-}
-@font-face {
-  font-family: "Playfair Display";
-  src: url("/fonts/PlayfairDisplay-BoldItalic.otf") format("opentype");
-  font-weight: 700; font-style: italic; font-display: swap;
-}
-@font-face {
-  font-family: "Playfair Display";
-  src: url("/fonts/PlayfairDisplay-Black.otf") format("opentype");
-  font-weight: 900; font-style: normal; font-display: swap;
-}
-@font-face {
-  font-family: "Playfair Display";
-  src: url("/fonts/PlayfairDisplay-BlackItalic.otf") format("opentype");
-  font-weight: 900; font-style: italic; font-display: swap;
-}
-
-/* Playfair Display Small Caps */
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("/fonts/PlayfairDisplaySC-Regular.otf") format("opentype");
-  font-weight: 400; font-style: normal; font-display: swap;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("/fonts/PlayfairDisplaySC-Italic.otf") format("opentype");
-  font-weight: 400; font-style: italic; font-display: swap;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("/fonts/PlayfairDisplaySC-Bold.otf") format("opentype");
-  font-weight: 700; font-style: normal; font-display: swap;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("/fonts/PlayfairDisplaySC-BoldItalic.otf") format("opentype");
-  font-weight: 700; font-style: italic; font-display: swap;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("/fonts/PlayfairDisplaySC-Black.otf") format("opentype");
-  font-weight: 900; font-style: normal; font-display: swap;
-}
-@font-face {
-  font-family: "Playfair Display SC";
-  src: url("/fonts/PlayfairDisplaySC-BlackItalic.otf") format("opentype");
-  font-weight: 900; font-style: italic; font-display: swap;
-}
-
-/* Minion Pro */
-@font-face {
-  font-family: "Minion Pro";
-  src: url("/fonts/MinionPro-Regular.otf") format("opentype");
-  font-weight: 400; font-style: normal; font-display: swap;
+@layer utilities {
+  .font-sans {
+    font-family: var(--font-montserrat), ui-sans-serif, system-ui, -apple-system,
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  }
+  .font-serif {
+    font-family: var(--font-playfair), Georgia, Cambria, "Times New Roman", Times, serif !important;
+  }
 }

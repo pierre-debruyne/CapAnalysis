@@ -1,17 +1,13 @@
+import defaultTheme from "tailwindcss/defaultTheme";
 import type { Config } from "tailwindcss";
 
 export default {
-  content: [
-    "./src/**/*.{ts,tsx,mdx,js,jsx}",
-  ],
+  content: ["./app/**/*.{ts,tsx,mdx,js,jsx}", "./src/**/*.{ts,tsx,mdx,js,jsx}"],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ["Montserrat", "system-ui", "sans-serif"],
-        serif: ["Playfair Display", "serif"],
-        "serif-sc": ["Playfair Display SC", "serif"],
-        minion: ["Minion Pro", "serif"],
-      },
+    fontFamily: {
+      sans: ["var(--font-montserrat)", ...defaultTheme.fontFamily.sans],
+      serif: ["var(--font-playfair)", ...defaultTheme.fontFamily.serif],
     },
+    extend: {},
   },
 } satisfies Config;
