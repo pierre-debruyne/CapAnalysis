@@ -54,7 +54,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
             Our analysis brings factual financial <br /> context to your
             managers’ performances
           </h2>
-          <div className="flex flex-col gap-5 xl:gap-0 xl:flex-row items-center xl:justify-between w-full mx-auto max-w-[1250px] py-[35px] xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
+          <div className="flex flex-col gap-5 xl:gap-0 xl:flex-row xl:items-stretch items-center xl:justify-between w-full mx-auto max-w-[1250px] py-[35px] xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
             <div className="flex-1 xl:max-w-[360px] xl:pr-[45px] w-2/3">
               <div className="xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
@@ -94,7 +94,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
 
             <div className="flex-1 xl:max-w-[360px] xl:pl-[45px] w-2/3">
               <div className="xl:max-w-[297px]">
-                <div className="text-[15px] font-sans font-semibold">
+                <div className="text-[15px] font-sans font-semibold uppercase">
                   Fees & Taxes
                 </div>
                 <p className="font-sans font-light text-[16px] text-[#806863]">
@@ -123,7 +123,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
           your data remains secure, we apply the following key principles:
         </p>
 
-        <div className="flex flex-col gap-5 xl:gap-0 xl:flex-row items-center xl:justify-between w-full mx-auto max-w-[1250px] py-[70px] xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
+        <div className="flex flex-col gap-5  xl:items-stretch xl:gap-0 xl:flex-row items-center xl:justify-between w-full mx-auto max-w-[1250px] py-[35px] xl:py-[70px] xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
           <div className="flex-1 xl:max-w-[294px] xl:pr-[45px] w-2/3 text-start">
             <div className="xl:max-w-[294px]">
               <div className="text-[15px] uppercase font-sans font-semibold">

@@ -24,8 +24,7 @@ export default function ForensicFinancialAnalysis() {
           Financial Expert by the Geneva Court since 2018.
         </p>
       </div>
-
-      <div className="grid 2xl:grid-cols-3 lg:grid-cols-2  grid-rows-2  pb-[48px] gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
+      <div className="grid xl:grid-cols-3 md:grid-cols-2  grid-rows-2 pb-[48px] gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
         <InfoBlock
           UppercaseText={"Damage Calculation\n"}
           LowercaseText={
@@ -57,9 +56,9 @@ export default function ForensicFinancialAnalysis() {
         />
       </div>
 
-      <div className="flex flex-col xl:flex-row gap-1 w-full pb-1">
-        <div className="bg-[#F8F1EC] w-full py-[65px]">
-          <div className="xl:max-w-[417px] lg:w-1/2 p-5 xl:p-0 mx-auto">
+      <div className="flex flex-col lg:flex-row gap-1 w-full pb-1">
+        <div className="bg-[#F8F1EC] w-full py-[35px] lg:py-[65px]">
+          <div className="lg:max-w-[417px] lg:w-3/4  p-5 xl:p-0 mx-auto">
             <h3 className="text-[23px] font-normal font-serif pb-[19px]">
               We regularly assist Law Firms in cases which involve:
             </h3>
@@ -84,8 +83,8 @@ export default function ForensicFinancialAnalysis() {
             </div>
           </div>
         </div>
-        <div className="bg-[#F8F1EC] w-full py-[65px]">
-          <div className="xl:max-w-[417px] lg:w-1/2 p-5 xl:p-0 mx-auto">
+        <div className="bg-[#F8F1EC] w-full py-[35px] lg:py-[65px]">
+          <div className="lg:max-w-[417px] lg:w-3/4  p-5 xl:p-0 mx-auto">
             <h3 className="font-normal font-serif text-[23px] pb-[19px]">
               We are proficient in several technical products involving:
             </h3>
@@ -131,7 +130,7 @@ export default function ForensicFinancialAnalysis() {
           <h2 className="text-center text-[23px] font-serif font-normal">
             Our Role as Forensic Financial Experts:
           </h2>
-          <div className="flex flex-col 2xl:flex-row text-start items-center gap-5 2xl:gap-0 justify-between w-full mx-auto max-w-[1450px] py-[35px] 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]">
+          <div className="flex flex-col 2xl:flex-row text-start 2xl:items-stretch items-center gap-5 2xl:gap-0 justify-between w-full mx-auto max-w-[1450px] py-[35px] 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]">
             <div className="flex-1 w-2/3 2xl:max-w-[360px] 2xl:pr-[45px]">
               <div className="2xl:max-w-[297px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
@@ -171,7 +170,7 @@ export default function ForensicFinancialAnalysis() {
 
             <div className="flex-1 w-2/3 2xl:max-w-[360px] 2xl:pl-[45px]">
               <div className="2xl:max-w-[297px]">
-                <div className="text-[15px] font-sans font-semibold">
+                <div className="text-[15px] uppercase font-sans font-semibold">
                   Final Expert Report
                 </div>
                 <p className="font-sans font-light text-[16px] text-[#806863]">
