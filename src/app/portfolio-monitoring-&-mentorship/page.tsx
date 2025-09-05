@@ -56,8 +56,8 @@ export default function PortfolioMonitoringMentorship() {
       </div>
 
       <div className="flex flex-col lg:flex-row gap-1 w-full pb-1">
-        <div className="bg-[#F8F1EC] w-full  py-[65px]">
-          <div className="lg:max-w-[360px] p-5 xl:p-0 mx-auto">
+        <div className="bg-[#F8F1EC] w-full py-[65px]">
+          <div className="lg:max-w-[490px] p-[50px] xl:p-0 mx-auto">
             <h3 className="text-[23px] font-normal font-serif pb-[19px]">
               Are your investments in line with your decisions?
             </h3>
@@ -74,7 +74,7 @@ export default function PortfolioMonitoringMentorship() {
           </div>
         </div>
         <div className="bg-[#F8F1EC] w-full py-[65px]">
-          <div className="lg:max-w-[490px] p-5 xl:p-0 mx-auto">
+          <div className="lg:max-w-[490px] p-[50px]  xl:p-0 mx-auto">
             <h3 className="font-normal font-serif text-[23px] pb-[19px]">
               An efficient monitoring
             </h3>
@@ -102,9 +102,9 @@ export default function PortfolioMonitoringMentorship() {
           <h2 className="text-center text-[23px] font-serif font-normal">
             Verification - Assessment - Comparison
           </h2>
-          <div className="w-full mx-auto max-w-[1166px] py-[35px] flex flex-col gap-5 md:grid md:grid-cols-2 md:justify-items-center xl:flex xl:flex-row xl:items-stretch xl:gap-0 xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
+          <div className="w-full mx-auto max-w-[1166px] px-[50px] py-[35px] flex flex-col gap-5 md:grid md:grid-cols-2 md:justify-items-center xl:flex xl:flex-row xl:items-stretch xl:gap-0 xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
             <div className="w-full md:w-auto xl:flex-1 xl:h-full xl:flex xl:pr-[45px] text-center xl:text-start md:justify-self-center">
-              <div className="max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0">
+              <div className="md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Risks
                 </div>
@@ -117,7 +117,7 @@ export default function PortfolioMonitoringMentorship() {
             </div>
 
             <div className="w-full md:w-auto xl:flex-1 xl:h-full xl:flex xl:px-[45px] text-center xl:text-start md:justify-self-center">
-              <div className="max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0 xl:h-[119px]">
+              <div className="md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0 xl:h-[119px]">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Performance
                 </div>
@@ -129,7 +129,7 @@ export default function PortfolioMonitoringMentorship() {
             </div>
 
             <div className="w-full md:w-auto md:col-span-2 md:justify-self-center xl:flex-1 xl:h-full xl:flex xl:pl-[45px] text-center xl:text-start">
-              <div className="max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0">
+              <div className="md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0">
                 <div className="text-[15px] uppercase font-sans font-semibold">
                   Fees & Taxes
                 </div>
@@ -163,7 +163,7 @@ export default function PortfolioMonitoringMentorship() {
 
         <div className="w-full mx-auto max-w-[1472px] py-[70px] flex flex-col gap-10 px-[50px]">
           <div className="flex flex-col gap-5  md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[900px] md:mx-auto 2xl:flex 2xl:flex-row 2xl:items-stretch 2xl:gap-0 2xl:max-w-none 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]">
-            <div className="max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start 2xl:flex-1 2xl:px-[34px]">
+            <div className="md:max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start 2xl:flex-1 2xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 Custodians
               </div>
@@ -174,7 +174,7 @@ export default function PortfolioMonitoringMentorship() {
               </p>
             </div>
 
-            <div className="max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start 2xl:flex-1 2xl:px-[34px]">
+            <div className="md:max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start 2xl:flex-1 2xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 Portfolios
               </div>
@@ -189,7 +189,7 @@ export default function PortfolioMonitoringMentorship() {
               </p>
             </div>
 
-            <div className="max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start 2xl:flex-1 2xl:px-[34px]">
+            <div className="md:max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start 2xl:flex-1 2xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 Instruments
               </div>
@@ -199,7 +199,7 @@ export default function PortfolioMonitoringMentorship() {
               </p>
             </div>
 
-            <div className="max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start 2xl:flex-1 2xl:px-[34px]">
+            <div className="md:max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start 2xl:flex-1 2xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 Transactions
               </div>
@@ -210,7 +210,7 @@ export default function PortfolioMonitoringMentorship() {
               </p>
             </div>
 
-            <div className="max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start md:col-span-2 md:justify-self-center 2xl:flex-1 2xl:px-[34px]">
+            <div className="md:max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start md:col-span-2 md:justify-self-center 2xl:flex-1 2xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
                 Type of Reports
               </div>

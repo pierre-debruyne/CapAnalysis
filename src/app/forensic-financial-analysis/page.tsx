@@ -58,7 +58,7 @@ export default function ForensicFinancialAnalysis() {
 
       <div className="flex flex-col lg:flex-row gap-1 w-full pb-1">
         <div className="bg-[#F8F1EC] w-full py-[35px] lg:py-[65px]">
-          <div className="lg:max-w-[417px] lg:w-3/4  p-5 xl:p-0 mx-auto">
+          <div className="lg:max-w-[417px] lg:w-3/4 p-[50px] xl:p-0 mx-auto">
             <h3 className="text-[23px] font-normal font-serif pb-[19px]">
               We regularly assist Law Firms in cases which involve:
             </h3>
@@ -84,7 +84,7 @@ export default function ForensicFinancialAnalysis() {
           </div>
         </div>
         <div className="bg-[#F8F1EC] w-full py-[35px] lg:py-[65px]">
-          <div className="lg:max-w-[417px] lg:w-3/4  p-5 xl:p-0 mx-auto">
+          <div className="lg:max-w-[417px] lg:w-3/4 p-[50px] xl:p-0 mx-auto">
             <h3 className="font-normal font-serif text-[23px] pb-[19px]">
               We are proficient in several technical products involving:
             </h3>
@@ -135,8 +135,8 @@ export default function ForensicFinancialAnalysis() {
             <div
               className="flex flex-col gap-5 md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[980px] md:mx-auto 2xl:flex 2xl:flex-row 2xl:items-stretch 2xl:gap-0 2xl:max-w-none 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]"
             >
-              <div className="w-full 2xl:flex-1 2xl:h-full 2xl:flex 2xl:pr-[45px] text-center md:text-start">
-                <div className="max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
+              <div className="w-full 2xl:flex-1 2xl:h-[142.5px] 2xl:flex 2xl:pr-[45px] text-center md:text-start">
+                <div className="md:max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
                   <div className="text-[15px] uppercase font-sans font-semibold">
                   Portfolio Consolidation
                   </div>
@@ -147,8 +147,8 @@ export default function ForensicFinancialAnalysis() {
                 </div>
               </div>
 
-              <div className="w-full 2xl:flex-1 2xl:h-full 2xl:flex 2xl:px-[45px] text-center md:text-start">
-                <div className="max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
+              <div className="w-full 2xl:flex-1 2xl:h-[142.5px] 2xl:flex 2xl:px-[45px] text-center md:text-start">
+                <div className="md:max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
                   <div className="text-[15px] uppercase font-sans font-semibold">
                     Preliminary Report
                   </div>
@@ -160,8 +160,8 @@ export default function ForensicFinancialAnalysis() {
                 </div>
               </div>
 
-              <div className="w-full 2xl:flex-1 2xl:h-full 2xl:flex 2xl:px-[45px] text-center md:text-start">
-                <div className="max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
+              <div className="w-full 2xl:flex-1 2xl:h-[142.5px] 2xl:flex 2xl:px-[45px] text-center md:text-start">
+                <div className="md:max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
                   <div className="text-[15px] uppercase font-sans font-semibold">
                     Damage Assessment
                   </div>
@@ -172,8 +172,8 @@ export default function ForensicFinancialAnalysis() {
                 </div>
               </div>
 
-              <div className="w-full 2xl:flex-1 2xl:h-full 2xl:flex 2xl:pl-[45px] text-center md:text-start">
-                <div className="max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
+              <div className="w-full 2xl:flex-1 2xl:h-[142.5px] 2xl:flex 2xl:pl-[45px] text-center md:text-start">
+                <div className="md:max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
                   <div className="text-[15px] uppercase font-sans font-semibold">
                   Final Expert Report
                   </div>

@@ -237,7 +237,7 @@ export default function Home() {
 
         {/* Texte en overlay */}
         <div className="lg:absolute inset-0 h-full flex flex-col md:flex-row gap-5 bg-[#F8F1EC] py-10 lg:p-0 lg:bg-transparent justify-center lg:justify-start items-center lg:gap-[140px] lg:ml-[189px]">
-          <div className="flex flex-col items-center max-w-[330px] mx-auto lg:m-0">
+          <div className="flex flex-col items-center md:max-w-[330px] mx-auto lg:m-0 px-[35px]">
             <h2 className="text-[35px] text-dark font-serif text-center leading-11">
               The real risk isn’t underperformance, it’s misinformation
             </h2>

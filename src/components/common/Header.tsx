@@ -18,10 +18,10 @@ export default function Header() {
   }, [])
 
   return (
-<header
-  className="fixed inset-x-0 top-0 z-30 bg-dark backdrop-blur
+    <header
+      className="fixed inset-x-0 top-0 z-30 bg-dark backdrop-blur
              px-[41px] pt-7 pb-[19px]"
->
+    >
       {" "}
       <div className="relative flex items-center justify-between">
         {/* Logo */}
@@ -71,7 +71,7 @@ export default function Header() {
             ]}
           />
           <NavItem label="THE TEAM" href="/team" />
-          <NavItem label="NEWS" href="/news" />
+          {/* <NavItem label="NEWS" href="/news" /> */}
           <NavItem label="CONTACT" href="/contact" />
         </nav>
       </div>
@@ -135,9 +135,9 @@ export default function Header() {
 
           <div className="h-px bg-white/10 my-3" />
 
-          <MobileLink href="/team" onClick={() => setOpen(false)}>
+          {/* <MobileLink href="/team" onClick={() => setOpen(false)}>
             THE TEAM
-          </MobileLink>
+          </MobileLink> */}
           <MobileLink href="/news" onClick={() => setOpen(false)}>
             NEWS
           </MobileLink>
