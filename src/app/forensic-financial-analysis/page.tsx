@@ -24,7 +24,7 @@ export default function ForensicFinancialAnalysis() {
           Financial Expert by the Geneva Court since 2018.
         </p>
       </div>
-      <div className="grid xl:grid-cols-3 md:grid-cols-2  grid-rows-2 pb-[48px] gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
+      <div className="grid xl:grid-cols-3 md:grid-cols-2 px-[50px]  grid-rows-2 pb-[48px] gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
         <InfoBlock
           UppercaseText={"Damage Calculation\n"}
           LowercaseText={
@@ -63,7 +63,7 @@ export default function ForensicFinancialAnalysis() {
               We regularly assist Law Firms in cases which involve:
             </h3>
 
-            <div className="flex flex-col lg:flex-row text-[#806863] font-light font-sans text-[16px]">
+            <div className="flex flex-col lg:flex-row text-[#806863] font-light font-sans text-[16px] xl:gap-5">
               <ul className="list-disc list-outside pl-5 lg:w-2/4">
                 <li>Churning</li>
                 <li>Leverage</li>
@@ -88,7 +88,7 @@ export default function ForensicFinancialAnalysis() {
             <h3 className="font-normal font-serif text-[23px] pb-[19px]">
               We are proficient in several technical products involving:
             </h3>
-            <div className="flex flex-col lg:flex-row justify-between text-[#806863] font-light font-sans text-[16px]">
+            <div className="flex flex-col lg:flex-row justify-between text-[#806863] font-light font-sans text-[16px] xl:gap-5">
               <ul className="list-disc list-outside pl-5">
                 <li>
                   Structured products: RKOF, Pivot, TARF, TARPF, BRC, etc.
@@ -126,58 +126,63 @@ export default function ForensicFinancialAnalysis() {
       </div>
 
       <div className="flex w-full">
-        <div className="bg-[#F8F1EC] w-full py-[65px]">
+        <div className="bg-[#F8F1EC] w-full py-[65px] px-[50px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
             Our Role as Forensic Financial Experts:
           </h2>
-          <div className="flex flex-col 2xl:flex-row text-start 2xl:items-stretch items-center gap-5 2xl:gap-0 justify-between w-full mx-auto max-w-[1450px] py-[35px] 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]">
-            <div className="flex-1 w-2/3 2xl:max-w-[360px] 2xl:pr-[45px]">
-              <div className="2xl:max-w-[297px]">
-                <div className="text-[15px] uppercase font-sans font-semibold">
+
+          <div className="w-full mx-auto max-w-[1450px] py-[35px] flex flex-col gap-5">
+            <div
+              className="flex flex-col gap-5 md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[980px] md:mx-auto 2xl:flex 2xl:flex-row 2xl:items-stretch 2xl:gap-0 2xl:max-w-none 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]"
+            >
+              <div className="w-full 2xl:flex-1 2xl:h-full 2xl:flex 2xl:pr-[45px] text-center md:text-start">
+                <div className="max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
+                  <div className="text-[15px] uppercase font-sans font-semibold">
                   Portfolio Consolidation
-                </div>
-                <p className="font-sans font-light text-[16px] text-[#806863]">
+                  </div>
+                  <p className="font-sans font-light text-[16px] text-[#806863]">
                   We reconstruct and consolidate the portfolio in which the loss
                   occurred, with a specific focus on the relevant time period.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex-1 w-2/3 2xl:max-w-[360px] 2xl:px-[45px]">
-              <div className="2xl:max-w-[297px]">
-                <div className="text-[15px] uppercase font-sans font-semibold">
-                  Preliminary Report
+                  </p>
                 </div>
-                <p className="font-sans font-light text-[16px] text-[#806863]">
+              </div>
+
+              <div className="w-full 2xl:flex-1 2xl:h-full 2xl:flex 2xl:px-[45px] text-center md:text-start">
+                <div className="max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
+                  <div className="text-[15px] uppercase font-sans font-semibold">
+                    Preliminary Report
+                  </div>
+                  <p className="font-sans font-light text-[16px] text-[#806863]">
                   We submit a detailed preliminary report to the legal team,
                   identifying and explaining all factors that contributed to the
                   loss.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex-1 w-2/3 2xl:max-w-[360px] 2xl:pl-[45px]">
-              <div className="2xl:max-w-[297px]">
-                <div className="text-[15px] uppercase font-sans font-semibold">
-                  Damage Assessment
+                  </p>
                 </div>
-                <p className="font-sans font-light text-[16px] text-[#806863]">
-                  In close collaboration with the lawyer(s), we quantify the
-                  financial damage based on objective, documented evidence.
-                </p>
               </div>
-            </div>
 
-            <div className="flex-1 w-2/3 2xl:max-w-[360px] 2xl:pl-[45px]">
-              <div className="2xl:max-w-[297px]">
-                <div className="text-[15px] uppercase font-sans font-semibold">
+              <div className="w-full 2xl:flex-1 2xl:h-full 2xl:flex 2xl:px-[45px] text-center md:text-start">
+                <div className="max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
+                  <div className="text-[15px] uppercase font-sans font-semibold">
+                    Damage Assessment
+                  </div>
+                  <p className="font-sans font-light text-[16px] text-[#806863]">
+                    In close collaboration with the lawyer(s), we quantify the
+                    financial damage based on objective, documented evidence.
+                  </p>
+                </div>
+              </div>
+
+              <div className="w-full 2xl:flex-1 2xl:h-full 2xl:flex 2xl:pl-[45px] text-center md:text-start">
+                <div className="max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
+                  <div className="text-[15px] uppercase font-sans font-semibold">
                   Final Expert Report
-                </div>
-                <p className="font-sans font-light text-[16px] text-[#806863]">
+                  </div>
+                  <p className="font-sans font-light text-[16px] text-[#806863]">
                   We draft the final expert report independently for use in
                   court proceedings, ensuring it aligns with legal arguments and
                   meets all evidentiary standards.
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
