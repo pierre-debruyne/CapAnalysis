@@ -14,7 +14,7 @@ export default function Contact() {
         <h3 className='text-2xl italic font-serif'>Start monitoring now</h3>
       </div>
 
-      <div className='w-full bg-[#F8F1EC] pt-[80px] pb-[85px] px-5 xl:px-0'>
+      <div className='w-full bg-[#e9d7c8] pt-[80px] pb-[85px] px-5 xl:px-0'>
         <div className='xl:max-w-[1222px] mx-auto flex flex-col gap-5 '>
           <div className='flex gap-5 xl:flex-row flex-col'>
             <Input placeholder='Your name' className='xl:w-[394px]' />

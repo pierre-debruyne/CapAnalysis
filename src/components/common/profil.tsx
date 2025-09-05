@@ -39,7 +39,7 @@ export default function Profil({
               className="w-[210px] h-[266px] object-cover mb-[10px] block"
             />
           ) : (
-            <div className="w-[210px] h-[266px] mb-[10px] bg-[#F8F1EC] flex items-center justify-center">
+            <div className="w-[210px] h-[266px] mb-[10px] bg-[#e9d7c8] flex items-center justify-center">
               {name}
             </div>
           )}

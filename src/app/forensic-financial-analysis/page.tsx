@@ -57,7 +57,7 @@ export default function ForensicFinancialAnalysis() {
       </div>
 
       <div className="flex flex-col lg:flex-row gap-1 w-full pb-1">
-        <div className="bg-[#F8F1EC] w-full py-[35px] lg:py-[65px]">
+        <div className="bg-[#e9d7c8] w-full py-[35px] lg:py-[65px]">
           <div className="lg:max-w-[417px] lg:w-3/4 p-[50px] xl:p-0 mx-auto">
             <h3 className="text-[23px] font-normal font-serif pb-[19px]">
               We regularly assist Law Firms in cases which involve:
@@ -83,7 +83,7 @@ export default function ForensicFinancialAnalysis() {
             </div>
           </div>
         </div>
-        <div className="bg-[#F8F1EC] w-full py-[35px] lg:py-[65px]">
+        <div className="bg-[#e9d7c8] w-full py-[35px] lg:py-[65px]">
           <div className="lg:max-w-[417px] lg:w-3/4 p-[50px] xl:p-0 mx-auto">
             <h3 className="font-normal font-serif text-[23px] pb-[19px]">
               We are proficient in several technical products involving:
@@ -126,7 +126,7 @@ export default function ForensicFinancialAnalysis() {
       </div>
 
       <div className="flex w-full">
-        <div className="bg-[#F8F1EC] w-full py-[65px] px-[50px]">
+        <div className="bg-[#e9d7c8] w-full py-[65px] px-[50px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
             Our Role as Forensic Financial Experts:
           </h2>

@@ -26,7 +26,7 @@ export default function Home() {
 
       <div className="flex flex-col lg:flex-row gap-1 w-full lg:mb-[45px]">
         {/*   Portfolio Monitoring & Mentorship */}
-        <div className="bg-[#F8F1EC] w-full py-[37px] px-5 lg:px-0">
+        <div className="bg-[#e9d7c8] w-full py-[37px] px-5 lg:px-0">
           <div className="flex justify-center flex-col items-center">
             <div className="mb-5 w-[399px]">
               <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start lg:text-start">
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
 
         {/*  FORENSIC FINANCIAL  ANALYSIS */}
-        <div className="bg-[#F8F1EC] w-full py-[37px] px-5 lg:px-0">
+        <div className="bg-[#e9d7c8] w-full py-[37px] px-5 lg:px-0">
           <div className="flex justify-center flex-col items-center">
             <div className="mb-5 w-[399px]">
               <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start lg:text-start">
@@ -236,7 +236,7 @@ export default function Home() {
         />
 
         {/* Texte en overlay */}
-        <div className="lg:absolute inset-0 h-full flex flex-col md:flex-row gap-5 bg-[#F8F1EC] py-10 lg:p-0 lg:bg-transparent justify-center lg:justify-start items-center lg:gap-[140px] lg:ml-[189px]">
+        <div className="lg:absolute inset-0 h-full flex flex-col md:flex-row gap-5 bg-[#e9d7c8] py-10 lg:p-0 lg:bg-transparent justify-center lg:justify-start items-center lg:gap-[140px] lg:ml-[189px]">
           <div className="flex flex-col items-center md:max-w-[330px] mx-auto lg:m-0 px-[35px]">
             <h2 className="text-[35px] text-dark font-serif text-center leading-11">
               The real risk isn’t underperformance, it’s misinformation

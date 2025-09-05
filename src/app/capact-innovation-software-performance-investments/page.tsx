@@ -49,7 +49,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
       </div>
 
       <div className="flex w-full">
-        <div className="bg-[#F8F1EC] w-full py-[65px] px-[50px]">
+        <div className="bg-[#e9d7c8] w-full py-[65px] px-[50px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
             Our analysis brings factual financial <br /> context to your
             managers’ performances
