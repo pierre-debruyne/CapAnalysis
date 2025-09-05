@@ -15,7 +15,12 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
           <div className="font-normal font-serif text-[35px] lg:w-1/2 text-center flex flex-col justify-end">
             <p className="leading-10 lg:pb-[5px] pb-5">
               At the heart of CAPAnalysis lies CAPAct, our proprietary software
-              developed in-house to deliver high-precision financial analysis.
+              developed in-house to deliver
+              <span className="hidden lg:inline">
+                <br />
+              </span>
+              <span className="inline lg:hidden"> </span>
+              high-precision financial analysis.
             </p>
             <p className="font-light font-sans text-[#806863] text-[16px] text-start">
               We have designed an intuitive and powerful suite of tools,
