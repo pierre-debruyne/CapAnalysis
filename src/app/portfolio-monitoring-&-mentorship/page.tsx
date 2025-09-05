@@ -23,8 +23,7 @@ export default function PortfolioMonitoringMentorship() {
           <br /> translating complexity, and ensuring your interests come first
           – always.
         </p>
-
-        <div className="grid 2xl:grid-cols-3 lg:grid-cols-2  grid-rows-2 gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2  grid-rows-2 gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
           <InfoBlock
             UppercaseText={"Portfolio Oversight\n & Health Checks\n"}
             LowercaseText={
@@ -56,9 +55,9 @@ export default function PortfolioMonitoringMentorship() {
         </div>
       </div>
 
-      <div className="flex flex-col xl:flex-row gap-1 w-full pb-1">
+      <div className="flex flex-col lg:flex-row gap-1 w-full pb-1">
         <div className="bg-[#F8F1EC] w-full  py-[65px]">
-          <div className="xl:max-w-[360px] p-5 xl:p-0 mx-auto">
+          <div className="lg:max-w-[360px] p-5 xl:p-0 mx-auto">
             <h3 className="text-[23px] font-normal font-serif pb-[19px]">
               Are your investments in line with your decisions?
             </h3>
@@ -75,7 +74,7 @@ export default function PortfolioMonitoringMentorship() {
           </div>
         </div>
         <div className="bg-[#F8F1EC] w-full py-[65px]">
-          <div className="xl:max-w-[490px] p-5 xl:p-0 mx-auto">
+          <div className="lg:max-w-[490px] p-5 xl:p-0 mx-auto">
             <h3 className="font-normal font-serif text-[23px] pb-[19px]">
               An efficient monitoring
             </h3>
@@ -104,30 +103,29 @@ export default function PortfolioMonitoringMentorship() {
             Verification - Assessment - Comparison
           </h2>
           <div className="flex flex-col gap-5 xl:gap-0 xl:flex-row items-center xl:justify-between w-full mx-auto max-w-[1166px] py-[35px] xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
-            <div className="flex-1 max-w-[360px] xl:pr-[45px] text-center lg:text-start">
-              <div className="xl:max-w-[297px]">
-                <div className="text-[15px] uppercase font-sans font-semibold">
-                  Risks
+              <div className="flex-1 max-w-[360px] xl:pr-[45px] text-center lg:text-start">
+                <div className="xl:max-w-[297px]">
+                  <div className="text-[15px] uppercase font-sans font-semibold">
+                    Risks
+                  </div>
+                  <p className="font-sans font-light text-[16px] text-[#806863]">
+                    Our risk staging allow you to be pro-actively prepared to
+                    financial markets erratic behaviours and think through
+                    efficiently your presence on the market.
+                  </p>
                 </div>
-                <p className="font-sans font-light text-[16px] text-[#806863]">
-                  Our risk staging allow you to be pro-actively prepared to
-                  financial markets erratic behaviours and think through
-                  efficiently your presence on the market.
-                </p>
               </div>
-            </div>
-
-            <div className="flex-1 max-w-[360px] xl:px-[45px] text-center lg:text-start">
-              <div className="xl:max-w-[297px]">
-                <div className="text-[15px] uppercase font-sans font-semibold">
-                  Performance
+              <div className="flex-1 max-w-[360px] xl:px-[45px] text-center lg:text-start">
+                <div className="xl:max-w-[297px]">
+                  <div className="text-[15px] uppercase font-sans font-semibold">
+                    Performance
+                  </div>
+                  <p className="font-sans font-light text-[16px] text-[#806863]">
+                    Our utmost mission is to demonstrate with sound elements
+                    what contributed to your performance.
+                  </p>
                 </div>
-                <p className="font-sans font-light text-[16px] text-[#806863]">
-                  Our utmost mission is to demonstrate with sound elements what
-                  contributed to your performance.
-                </p>
               </div>
-            </div>
 
             <div className="flex-1 max-w-[360px] xl:pl-[45px] text-center lg:text-start">
               <div className="xl:max-w-[297px]">
@@ -161,7 +159,7 @@ export default function PortfolioMonitoringMentorship() {
           and volume of the following elements:
         </p>
 
-        <div className="flex flex-col 2xl:flex-row text-start items-center gap-5 2xl:gap-0 justify-between w-full mx-auto max-w-[1472px] py-[70px] 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]">
+        <div className="flex flex-col 2xl:flex-row text-start  2xl:items-stretch items-center gap-5 2xl:gap-0 justify-between w-full mx-auto max-w-[1472px] py-[70px] 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]">
           <div className="flex-1 w-2/3 2xl:max-w-[294px] 2xl:pr-[45px]">
             <div className="2xl:max-w-[294px]">
               <div className="text-[15px] uppercase font-sans font-semibold">
