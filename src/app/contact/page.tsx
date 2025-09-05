@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <div>
       {/* Header */}
-      <div className='bg-dark w-full h-[235px] text-beige flex items-center justify-center pt-[60px] pb-[43px] flex-col gap-[30px]'>
+      <div className='bg-dark w-full h-[235px] mt-[87px] text-beige flex items-center justify-center pt-[60px] pb-[43px] flex-col gap-[30px]'>
         <h2 className='text-[60px] text-center whitespace-pre-line leading-[1.1]'>Contact us</h2>
         <h3 className='text-2xl italic font-serif'>Start monitoring now</h3>
       </div>

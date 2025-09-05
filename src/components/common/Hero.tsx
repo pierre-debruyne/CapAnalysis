@@ -10,7 +10,7 @@ type HeroProps = {
 
 export default function Hero({ imgSrc, imgAlt, title, text, imgPosition }: HeroProps) {
   return (
-    <div className="w-full h-[692px] relative overflow-x-clip">
+    <div className="w-full h-[692px] relative overflow-x-clip mt-[87px]">
       <div className="w-full lg:flex h-full">
         <div className="xl:w-[69%] w-full relative h-full">
           <Image
