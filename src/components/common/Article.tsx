@@ -14,7 +14,7 @@ type ArticleProps = {
 
 export default function Article({ imgSrc, imgAlt, title, text, text2, posted, hashtag, date }: ArticleProps) {
   return (
-    <div className='xl:max-w-[942px] p-5 xl:p-0 flex flex-col xl:flex-row border-b border-[#BAACA9] gap-[50px] mx-auto py-[34px]'>
+    <div className='xl:max-w-[942px] p-5 xl:py-5 xl:p-0 flex flex-col xl:flex-row border-b border-[#BAACA9] gap-[50px] mx-auto py-[34px]'>
       <div>
         <div className='sm:w-[207px] sm:h-[207px] border-beige'>
           <Image width={207} height={207} src={imgSrc} alt={imgAlt || title} className='object-cover w-full h-full' />
