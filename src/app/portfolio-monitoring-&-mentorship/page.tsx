@@ -219,15 +219,13 @@ export default function PortfolioMonitoringMentorship() {
               </p>
               <ul className="font-sans font-light text-[16px] text-[#806863] space-y-2">
                 <li>
-                  <span className="font-semibold">Analytical</span>
+                  <span className="font-semibold">Analytical </span>
                   snapshots highlighting key performance drivers and notable
                   financial events
                 </li>
                 <li>
-                  <span className="font-semibold">
-                    In-depth analyses detailing
-                  </span>
-                  performance attribution and risk exposure across your
+                  <span className="font-semibold">In-depth analyses detailing </span>
+                   performance attribution and risk exposure across your
                   investments
                 </li>
               </ul>
