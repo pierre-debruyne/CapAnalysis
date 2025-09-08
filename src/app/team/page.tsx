@@ -16,9 +16,10 @@ export default function Team() {
         <div className="max-w-[1105px] h-[692px] mx-auto flex items-center justify-center text-center">
           <video
             className="w-full h-full object-cover"
-            src="assets/videos/capanalysis.mp4"
+            src="/assets/videos/capanalysis.mp4"
             autoPlay
             loop
+            muted
             playsInline
             controls
           />
