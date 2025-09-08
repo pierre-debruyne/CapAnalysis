@@ -10,7 +10,7 @@ export default function Contact() {
     <div>
       {/* Header */}
       <div className='bg-dark w-full h-[235px] mt-[87px] text-beige flex items-center justify-center pt-[60px] pb-[43px] flex-col gap-[30px]'>
-        <h2 className='text-[60px] text-center whitespace-pre-line leading-[1.1]'>Contact us</h2>
+        <h2 className='text-[60px] text-center font-serif whitespace-pre-line leading-[1.1]'>Contact us</h2>
         <h3 className='text-2xl italic font-serif'>Start monitoring now</h3>
       </div>
 
@@ -30,7 +30,7 @@ export default function Contact() {
               <Checkbox />
               <span className='text-[11px] text-[#806863] font-sans font-light'>I’M HUMAN!</span>
             </div>
-            <Button>SEND MESSAGE</Button>
+            <Button >SEND MESSAGE</Button>
           </div>
         </div>
       </div>
