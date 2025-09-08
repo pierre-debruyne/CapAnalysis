@@ -36,9 +36,9 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row gap-1 w-full lg:mb-[45px]">
         {/*  Bloc 2 - Portfolio Monitoring & Mentorship */}
         <div className="bg-[#e9d7c8] w-full py-[37px] px-5 lg:px-0">
-          <div className="flex justify-center flex-col items-center">
-            <div className="mb-5 w-[399px]">
-              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-center md:text-start">
+          <div className="flex justify-center flex-col items-start md:items-center">
+            <div className="mb-5 md:w-[399px]">
+              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start">
                 Portfolio Monitoring
                 <br />& Mentorship
               </h2>
@@ -91,9 +91,9 @@ export default function Home() {
 
         {/* Bloc 2 - FORENSIC FINANCIAL  ANALYSIS */}
         <div className="bg-[#e9d7c8] w-full py-[37px] px-5 lg:px-0">
-          <div className="flex justify-center flex-col items-center">
-            <div className="mb-5 w-[399px]">
-              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-center md:text-start">
+          <div className="flex justify-center flex-col items-start md:items-center">
+            <div className="mb-5 md:w-[399px]">
+              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start">
                 FORENSIC FINANCIAL
                 <br />
                 ANALYSIS
