@@ -29,7 +29,7 @@ export default function NavItem({ label, href, children }: NavItemProps) {
 
       {/* Sous-menu */}
       {hasChildren && (
-        <div className="px-[13px] pb-[13px] absolute text-sm left-[-13px] mt-[18px] w-[191px] bg-dark text-beige opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+        <div className="px-[13px] pb-[13px] absolute text-sm left-[-13px] mt-[18px] w-max bg-dark text-beige opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
           <hr className="border-t pb-[12px] border-beige" />
           <ul className="space-y-2">
             {children.map((item, i) => (
