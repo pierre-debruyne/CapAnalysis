@@ -19,7 +19,7 @@ export default function ForensicFinancialAnalysis() {
         <h2 className='text-[35px] font-serif text-center text-[#292929] leading-11 pb-[10px]'>
           Trusted by courts and legal teams, our forensic <br /> financial analysis supports litigation, mediation, <br /> and complex financial disputes.
         </h2>
-        <p className='pb-[67px] text-center text-[#806863]'>
+        <p className='pb-[67px] font-light text-center text-[#806863]'>
           CAPAnalysis has been officially recognised as a Forensic <br />
           Financial Expert by the Geneva Court since 2018.
         </p>
@@ -86,8 +86,8 @@ export default function ForensicFinancialAnalysis() {
 
       <div className='bg-dark py-[49px] px-5 2xl:px-0'>
         <div className='max-w-[564px] mx-auto text-[23px] text-white text-center'>
-          <p className='mb-[15px]'>The development of CAPAct enables us to perform a variety of simulations, to compare various scenarios, and perform damage calculations</p>
-          <p>Our expertise is also solicited to arbitrate between parties to find an agreeable settlement.</p>
+          <p className='mb-[15px] font-serif'>The development of CAPAct enables us to perform a variety of simulations, to compare various scenarios, and perform damage calculations</p>
+          <p className="font-serif">Our expertise is also solicited to arbitrate between parties to find an agreeable settlement.</p>
         </div>
       </div>
 
@@ -138,11 +138,11 @@ export default function ForensicFinancialAnalysis() {
 
           <div className='border-y border-[#BAACA9] max-w-[350px] py-[16px] mx-auto'>
             <div className='grid grid-cols-2 grid-rows-2 '>
-              <span className='uppercase font-semibold font-sans text-[15px]'>Partners</span>
-              <span className='text-[#BAACA9] font-light font-sans text-[16px]'>CHF 400.– / hour</span>
-              <span className='uppercase font-semibold font-sans text-[15px]'>Senior Experts</span>
+              <span className='uppercase font-semibold font-sans text-[15px text-start'>Partners</span>
+              <span className='text-[#BAACA9] font-light font-sans text-[16px] '>CHF 400.– / hour</span>
+              <span className='uppercase font-semibold font-sans text-[15px] text-start'>Senior Experts</span>
               <span className='text-[#BAACA9] font-light font-sans text-[16px]'>CHF 300.– / hour</span>
-              <span className='uppercase font-semibold font-sans text-[15px]'>Junior Analysts</span>
+              <span className='uppercase font-semibold font-sans text-[15px] text-start'>Junior Analysts</span>
               <span className='text-[#BAACA9] font-light font-sans text-[16px]'>CHF 200.– / hour</span>
             </div>
           </div>
