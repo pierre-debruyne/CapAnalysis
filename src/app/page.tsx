@@ -82,7 +82,7 @@ export default function Home() {
                   href={"/portfolio-monitoring-&-mentorship"}
                   className="shrink-0"
                 >
-                  <Button className="w-[107px]">Learn more</Button>
+                  <Button>Learn more</Button>
                 </Link>
               </div>
             </div>
@@ -137,7 +137,7 @@ export default function Home() {
                   href={"/forensic-financial-analysis"}
                   className="shrink-0"
                 >
-                  <Button className="w-[107px]">Learn more</Button>
+                  <Button>Learn more</Button>
                 </Link>
               </div>
             </div>
