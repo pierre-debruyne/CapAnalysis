@@ -146,9 +146,9 @@ export default function Home() {
       </div>
 
       {/*  Bloc 3 - CAPAct. The forensic core of every investigation. */}
-      <div className="bg-dark w-full px-[50px] py-[37px]">
+      <div className="bg-dark w-full pb-[37px] px-[50px] md:py-[37px]">
         <div className="flex flex-col lg:flex-row items-center">
-          <div className="relative w-full h-[415px] lg:h-[415px]">
+          <div className="relative w-full h-[300px] md:h-[415px]">
             <Image
               src="/assets/images/CAPAct_home.png"
               alt=""
