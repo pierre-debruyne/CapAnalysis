@@ -34,7 +34,7 @@ export default function ForensicFinancialAnalysis() {
         <InfoBlock
           UppercaseText={"Damage Calculation\n"}
           LowercaseText={
-            "Using our proprietary tool CAPAct tool, we quantify financial harm in cases of mismanagement, hidden fees, and strategy drift."
+            "Using our proprietary tool CAPAct, we quantify financial harm in cases of mismanagement, hidden fees, and strategy drift."
           }
         />
         <InfoBlock
@@ -59,6 +59,11 @@ export default function ForensicFinancialAnalysis() {
         <InfoBlock
           UppercaseText={"Multi-Bank Asset \n Consolidation\n"}
           LowercaseText={`We untangle fragmented portfolios and trace financial movements for full transparency.`}
+        />
+
+        <InfoBlock
+          UppercaseText={"REVERSE ENGINEERING\n"}
+          LowercaseText={`We break down products into their underlying components to understand their structure, pricing, risks, and embedded fees.`}
         />
       </div>
 
@@ -121,8 +126,8 @@ export default function ForensicFinancialAnalysis() {
         <div className="max-w-[564px] mx-auto text-[23px] text-white text-center">
           <p className="mb-[15px]">
             The development of CAPAct enables us to perform a variety of
-            simulations to compare various scenarios and perform damage
-            calculations.
+            simulations, to compare various scenarios, and perform damage
+            calculations
           </p>
           <p>
             Our expertise is also solicited to arbitrate between parties to find
@@ -134,21 +139,20 @@ export default function ForensicFinancialAnalysis() {
       <div className="flex w-full">
         <div className="bg-[#e9d7c8] w-full py-[65px] px-[50px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
-            Our Role as Forensic Financial Experts:
+            Our role as Forensic Financial Experts:
           </h2>
 
           <div className="w-full mx-auto max-w-[1450px] py-[35px] flex flex-col gap-5">
-            <div
-              className="flex flex-col gap-5 md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[980px] md:mx-auto 2xl:flex 2xl:flex-row 2xl:items-stretch 2xl:gap-0 2xl:max-w-none 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]"
-            >
+            <div className="flex flex-col gap-5 md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[980px] md:mx-auto 2xl:flex 2xl:flex-row 2xl:items-stretch 2xl:gap-0 2xl:max-w-none 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]">
               <div className="w-full 2xl:flex-1 2xl:h-[142.5px] 2xl:flex 2xl:pr-[45px] text-center md:text-start">
                 <div className="md:max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
                   <div className="text-[15px] uppercase font-sans font-semibold">
-                  Portfolio Consolidation
+                    Portfolio Consolidation
                   </div>
                   <p className="font-sans font-light text-[16px] text-[#806863]">
-                  We reconstruct and consolidate the portfolio in which the loss
-                  occurred, with a specific focus on the relevant time period.
+                    We reconstruct and consolidate the portfolio in which the
+                    loss occurred, with a specific focus on the relevant time
+                    period.
                   </p>
                 </div>
               </div>
@@ -159,9 +163,9 @@ export default function ForensicFinancialAnalysis() {
                     Preliminary Report
                   </div>
                   <p className="font-sans font-light text-[16px] text-[#806863]">
-                  We submit a detailed preliminary report to the legal team,
-                  identifying and explaining all factors that contributed to the
-                  loss.
+                    We submit a detailed preliminary report to the legal team,
+                    identifying and explaining all factors that contributed to
+                    the loss.
                   </p>
                 </div>
               </div>
@@ -181,12 +185,12 @@ export default function ForensicFinancialAnalysis() {
               <div className="w-full 2xl:flex-1 2xl:h-[142.5px] 2xl:flex 2xl:pl-[45px] text-center md:text-start">
                 <div className="md:max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0">
                   <div className="text-[15px] uppercase font-sans font-semibold">
-                  Final Expert Report
+                    Final Expert Report
                   </div>
                   <p className="font-sans font-light text-[16px] text-[#806863]">
-                  We draft the final expert report independently for use in
-                  court proceedings, ensuring it aligns with legal arguments and
-                  meets all evidentiary standards.
+                    We draft the final expert report independently for use in
+                    court proceedings, ensuring it aligns with legal arguments
+                    and meets all evidentiary standards.
                   </p>
                 </div>
               </div>

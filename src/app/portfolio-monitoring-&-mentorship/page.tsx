@@ -49,13 +49,19 @@ export default function PortfolioMonitoringMentorship() {
           <InfoBlock
             UppercaseText={`Discretionary Mandate\n Reviews\n`}
             LowercaseText={
-              "We analyze how your bank is managing your assets — and whether they’re meeting expectations."
+              "We ensure that your risk profile is aligned with your chosen mandate and that your investments remain consistent with it."
             }
           />
           <InfoBlock
             UppercaseText={"Client Education & Mentoring\n"}
             LowercaseText={
               "Designed for individuals and families who want to understand what they own and why — without feeling overwhelmed."
+            }
+          />
+          <InfoBlock
+            UppercaseText={"PORTFOLIO AGGREGATION\n"}
+            LowercaseText={
+              "We consolidate and standardize your entire investment universe both financial and non-financial."
             }
           />
         </div>
@@ -230,8 +236,10 @@ export default function PortfolioMonitoringMentorship() {
                   financial events
                 </li>
                 <li>
-                  <span className="font-semibold">In-depth analyses detailing </span>
-                   performance attribution and risk exposure across your
+                  <span className="font-semibold">
+                    In-depth analyses detailing{" "}
+                  </span>
+                  performance attribution and risk exposure across your
                   investments
                 </li>
               </ul>
