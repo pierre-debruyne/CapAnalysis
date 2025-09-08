@@ -17,7 +17,7 @@ export default function PortfolioMonitoringMentorship() {
         imgAlt=""
         title={`Portfolio Monitoring\n& Mentorship`}
         text={`Wealth needs guardianship,\nnot just management.`}
-        imgPosition="object-[22%_58%] md:object-[20%_50%]"
+        imgPosition="object-[10%_90%] lg:object-[20%_50%]"
       />
 
       {/* Bloc 1 - Independent financial expertise for control, protection, and clarity. */}
