@@ -5,28 +5,20 @@ export default function News() {
   return (
     <div>
       {/* Header */}
-      <div className="bg-dark w-full h-[235px] flex items-center justify-center pt-[60px] pb-[43px] mt-[87px]">
-        <h2 className="text-beige text-[60px] text-center whitespace-pre-line leading-[1.1]">
-          {`CAPAnalysis\nin the news`}
-        </h2>
+      <div className='bg-dark w-full h-[235px] flex items-center justify-center pt-[60px] pb-[43px] mt-[87px]'>
+        <h2 className='text-beige text-[60px] text-center whitespace-pre-line leading-[1.1]'>{`CAPAnalysis\nin the news`}</h2>
       </div>
 
       {/* Liste d'articles */}
-      <div className="pt-[61px]">
+      <div className='pt-[61px]'>
         <Article
           imgSrc={"/assets/images/news/post_01.jpg"}
-          title={
-            "Washington faces a global market ‘rebellion’overrecord U.S. debt"
-          }
+          title={"Washington faces a global market ‘rebellion’overrecord U.S. debt"}
           date={"02/02/2024"}
-          text={
-            "The global economyis approaching the point of no return courtesy of mounting government debt, believes JPMorgan ChaseCEO Jamie Dimon, and it will lead toa massive falling-out of markets and federal institutions."
-          }
-          text2={
-            "Currently the American national debt stands at $34.14trillion — about $100,000 for every person in theU.S. — with the debt ceiling currently suspended until 2025 courtesy of a dealpassed in the summer of 2023."
-          }
+          text={"The global economyis approaching the point of no return courtesy of mounting government debt, believes JPMorgan ChaseCEO Jamie Dimon, and it will lead toa massive falling-out of markets and federal institutions."}
+          text2={"Currently the American national debt stands at $34.14trillion — about $100,000 for every person in theU.S. — with the debt ceiling currently suspended until 2025 courtesy of a dealpassed in the summer of 2023."}
           posted={"Control"}
-          hashtag="#control #reporting #valuation"
+          hashtag='#control #reporting #valuation'
         />
 
         <Article
@@ -41,9 +33,7 @@ export default function News() {
 
         <Article
           imgSrc={"/assets/images/news/post_03.jpg"}
-          title={
-            "Lost Fortune Pits Rich Russian Against Rothschild in New York Court"
-          }
+          title={"Lost Fortune Pits Rich Russian Against Rothschild in New York Court"}
           date={"29/06/2021"}
           text={
             "Two decades ago this month, senior officers there signed the paperwork with Russian oil magnate Sergey Bogdanchikov that entrusted his growing fortune to the storied bank. But instead of protecting and increasing his wealth, Bogdanchikov claims, a prominent relationship manager at the bank steered it to a coterie of accomplices across Europe and the U.S. who cost[…]"
