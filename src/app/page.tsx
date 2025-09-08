@@ -2,8 +2,14 @@ import Footer from "@/components/common/Footer";
 import Hero from "@/components/common/Hero";
 import InfoBlock from "@/components/common/InfoBlock";
 import Button from "@/components/ui/Button";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "CAPANALYSIS | Your Wealth Your Terms",
+  description: "Experts in portfolio consolidation, financial analysis, and forensic expertise for private clients in civil and criminal cases.",
+};
 
 export default function Home() {
   return (

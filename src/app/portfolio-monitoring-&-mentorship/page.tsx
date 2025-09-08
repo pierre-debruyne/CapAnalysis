@@ -1,6 +1,12 @@
 import Footer from "@/components/common/Footer";
 import Hero from "@/components/common/Hero";
 import InfoBlock from "@/components/common/InfoBlock";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Portfolio monitoring | CAPANALYSIS",
+  description: "Consolidation and strategic oversight for private portfolios with subscription oversight, performance analysis, and suitability testing.",
+};
 
 export default function PortfolioMonitoringMentorship() {
   return (

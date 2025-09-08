@@ -1,6 +1,12 @@
 import Footer from "@/components/common/Footer";
 import Profil from "@/components/common/Profil";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "The Team | CAPANALYSIS",
+  description: "Meet our expert team specializing in portfolio consolidation, financial analysis, and forensic investigations, dedicated to delivering precise, trustworthy solutions for private clients and legal cases.",
+};
 
 export default function Team() {
   return (

@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "CAPANALYSIS | Your Wealth Your Terms",
-  description: "",
+  description: "Experts in portfolio consolidation, financial analysis, and forensic expertise for private clients in civil and criminal cases.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

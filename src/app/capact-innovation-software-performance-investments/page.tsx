@@ -1,5 +1,11 @@
 import Footer from "@/components/common/Footer";
 import Hero from "@/components/common/Hero";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "CAPAct | CAPANALYSIS",
+  description: "Advanced software solutions for portfolio consolidation, financial analysis, and forensic investigations, empowering private clients and legal experts with precise, reliable tools.",
+};
 
 export default function CapactInnovationSoftwarePerformanceInvestments() {
   return (
@@ -7,9 +13,8 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
       <Hero
         imgSrc="/assets/images/hero_capact.png"
         imgAlt=""
-        title={`CAPAct:\n  our proprietary\n analytical platform`}
+        title={`CAPAct.\n Our proprietary\n analytical platform`}
       />
-
       <div className="pt-[45px] pb-[55px]">
         <div className="lg:max-w-[692px] mx-auto flex flex-col lg:flex-row gap-[40px] px-[50px] lg:p-0">
           <div className="font-normal font-serif text-[35px] lg:w-1/2 text-center flex flex-col justify-end">
@@ -31,12 +36,12 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
           <div className="font-light font-sans text-[#806863] text-[16px] lg:w-1/2 flex gap-[13px] flex-col">
             <p>This methodology applies to two categories of assets:</p>
             <p>
-              Financial Investments: All publicly traded instruments on global
-              financial markets.
+              <span className="font-semibold">Financial Investments:</span> All
+              publicly traded instruments on global financial markets.
             </p>
             <p>
-              Non-Financial Investments: Art collections, real estate, and other
-              tangible assets.
+              <span className="font-semibold">Non-Financial Investments:</span>{" "}
+              Art collections, real estate, and other tangible assets.
             </p>
             <p>
               CAPAct consolidates and standardizes your entire investment

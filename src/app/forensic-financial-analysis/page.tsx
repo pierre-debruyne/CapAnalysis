@@ -1,6 +1,12 @@
 import Footer from "@/components/common/Footer";
 import Hero from "@/components/common/Hero";
 import InfoBlock from "@/components/common/InfoBlock";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Forensic financial analysis | CAPANALYSIS",
+  description: "Forensic financial analysis experts delivering thorough investigations, fraud detection, and independent reports for legal disputes and financial compliance.",
+};
 
 export default function ForensicFinancialAnalysis() {
   return (
