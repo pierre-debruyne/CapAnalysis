@@ -175,7 +175,7 @@ export default function Home() {
               href={"/capact-innovation-software-performance-investments"}
               className="shrink-0"
             >
-              <Button>LEARN MORE</Button>
+              <Button className="text-[#b7aca9]">LEARN MORE</Button>
             </Link>
           </div>
         </div>
