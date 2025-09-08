@@ -1,5 +1,5 @@
 import Footer from "@/components/common/Footer";
-import Profil from "@/components/common/Profil";
+import Profil from "@/components/common/profil";
 import { Metadata } from "next";
 import React from "react";
 
