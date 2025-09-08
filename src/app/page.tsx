@@ -12,7 +12,7 @@ export default function Home() {
         imgSrc="/assets/images/hero_home.png"
         imgAlt=""
         title={`Uncovering the truth\nbehind your\nwealth management`}
-        text={`Financial bodyguard &\nindependent forensic analysis`}
+        text={`Financial bodyguard &\nindependent forensic expert`}
       />
 
       <div className="py-[65px] flex justify-center items-center flex-col bg-white">
@@ -150,8 +150,8 @@ export default function Home() {
 
           <div className="w-full flex flex-col items-center">
             <h2 className=" font-serif font-normal text-[35px] text-center text-white">
-              CAPAct,
-              <br /> the forensic core of <br /> every investigation.
+              CAPAct.
+              <br /> The forensic core of <br /> every investigation.
             </h2>
             <p className="text-[#BAACA9] mt-[10px] mb-[28px] text-center">
               Behind every analysis, every model, and every strategic alert is{" "}
@@ -165,7 +165,7 @@ export default function Home() {
               href={"/capact-innovation-software-performance-investments"}
               className="shrink-0"
             >
-              <Button>LEARN ARTICLE</Button>
+              <Button>LEARN MORE</Button>
             </Link>
           </div>
         </div>
@@ -173,13 +173,13 @@ export default function Home() {
 
       <div className="pt-[67px] pb-[48px] px-[50px]">
         <h2 className="text-[35px] font-serif text-center text-[#292929] pb-[67px]">
-          Uncovering conflicts, costs, and mismanagement
+          Exposing conflicts, costs, and mismanagement
           <br /> in investment portfolios.
         </h2>
 
         <div className="grid xl:grid-cols-3 md:grid-cols-2  grid-rows-2 gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
           <InfoBlock
-            UppercaseText={"Rebuilds full investment history"}
+            UppercaseText={"Rebuilds full portfolio history"}
             LowercaseText={
               ", enabling analysis of evolving exposures, allocations, and decisions."
             }
@@ -208,7 +208,14 @@ export default function Home() {
           <InfoBlock
             UppercaseText={`Extracts and monitors all layers of cost,\nvisible and hidden.\n`}
             LowercaseText={
-              "It quantifies the real impact of fees, retrocessions, and product spreads over time, and determines whether a fund, product, or entire mandate justifies its cost."
+              <>
+                It quantifies the{" "}
+                <span className="font-semibold">
+                  real impact of fees, retrocessions, and product spreads
+                </span>{" "}
+                over time, and determines whether a fund, product, or entire
+                mandate justifies its cost.
+              </>
             }
           />
           <InfoBlock
@@ -218,9 +225,17 @@ export default function Home() {
             }
           />
           <InfoBlock
-            UppercaseText={"Audits the execution\n layer"}
+            UppercaseText={"Audits the execution\n layer"}
             LowercaseText={
-              " checking that purchase and redemption prices align with market prices, coupons are paid when due and promised cash flows are honored. Flags discrepancies for deeper investigation."
+              <>
+                checking that purchase and redemption prices align with market
+                prices, coupons are paid when due and promised cash flows are
+                honored.{" "}
+                <span className="font-semibold">
+                  Flags discrepancies for deeper investigation
+                </span>
+                .
+              </>
             }
           />
         </div>
