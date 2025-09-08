@@ -38,7 +38,7 @@ export default function Home() {
         <div className="bg-[#e9d7c8] w-full py-[37px] px-5 lg:px-0">
           <div className="flex justify-center flex-col items-center">
             <div className="mb-5 w-[399px]">
-              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start lg:text-start">
+              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-center md:text-start">
                 Portfolio Monitoring
                 <br />& Mentorship
               </h2>
@@ -93,7 +93,7 @@ export default function Home() {
         <div className="bg-[#e9d7c8] w-full py-[37px] px-5 lg:px-0">
           <div className="flex justify-center flex-col items-center">
             <div className="mb-5 w-[399px]">
-              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start lg:text-start">
+              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-center md:text-start">
                 FORENSIC FINANCIAL
                 <br />
                 ANALYSIS
