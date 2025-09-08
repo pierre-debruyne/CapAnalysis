@@ -60,7 +60,7 @@ export default function Team() {
         />
 
         <Profil
-          imgSrc=''
+          imgSrc='/assets/images/profil/olivier_fochaix.png'
           imgAlt='Olivier Rochaix'
           name='Olivier Rochaix'
           job='Head of Technology'
