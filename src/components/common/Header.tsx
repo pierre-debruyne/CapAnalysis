@@ -164,7 +164,7 @@ function MobileLink({
     <Link
       href={href}
       onClick={onClick}
-      className="block rounded-xl px-3 py-3 text-base leading-none hover:bg-white/5 focus:bg-white/10 outline-none transition"
+      className="block rounded-xl px-3 py-3 font-sans font-extralight leading-none hover:bg-white/5 focus:bg-white/10 outline-none transition"
     >
       {children}
     </Link>
