@@ -4,12 +4,14 @@ import Footer from "@/components/common/Footer";
 export default function News() {
   return (
     <div>
+      {/* Header */}
       <div className="bg-dark w-full h-[235px] flex items-center justify-center pt-[60px] pb-[43px] mt-[87px]">
         <h2 className="text-beige text-[60px] text-center whitespace-pre-line leading-[1.1]">
           {`CAPAnalysis\nin the news`}
         </h2>
       </div>
 
+      {/* Liste d'articles */}
       <div className="pt-[61px]">
         <Article
           imgSrc={"/assets/images/news/post_01.jpg"}

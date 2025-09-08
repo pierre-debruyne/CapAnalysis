@@ -10,11 +10,13 @@ export const metadata: Metadata = {
 export default function CapactInnovationSoftwarePerformanceInvestments() {
   return (
     <div>
+      {/* Hero - CAPAct. Our proprietary analytical platform */}
       <Hero
         imgSrc="/assets/images/hero_capact.png"
         imgAlt=""
         title={`CAPAct.\n Our proprietary\n analytical platform`}
       />
+      {/* Bloc 1 - CAPAct introduction & asset categories */}{" "}
       <div className="pt-[45px] pb-[55px]">
         <div className="lg:max-w-[692px] mx-auto flex flex-col lg:flex-row gap-[40px] px-[50px] lg:p-0">
           <div className="font-normal font-serif text-[35px] lg:w-1/2 text-center flex flex-col justify-end">
@@ -58,6 +60,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
         </div>
       </div>
 
+      {/* Bloc 2 - Performance analysis: efficiency, innovation, risk, fees & taxes */}{" "}
       <div className="flex w-full">
         <div className="bg-[#e9d7c8] w-full p-[50px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
@@ -123,6 +126,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
         </div>
       </div>
 
+      {/* Bloc 3 - Our safety measures*/}
       <div className="pt-[51px] text-center w-full px-[50px]">
         <h2 className="text-[23px] font-serif font-normal pb-[19px]">
           Our safety measures
@@ -197,7 +201,6 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
           </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );

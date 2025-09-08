@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 export default function PortfolioMonitoringMentorship() {
   return (
     <div>
+      {/* Hero - Portfolio Monitoring & Mentorship */}
       <Hero
         imgSrc="/assets/images/hero_pmm.jpeg"
         imgAlt=""
@@ -19,6 +20,7 @@ export default function PortfolioMonitoringMentorship() {
         imgPosition="object-[70%_50%] md:object-[20%_50%]"
       />
 
+      {/* Bloc 1 - Independent financial expertise for control, protection, and clarity. */}
       <div className="pt-[67px] pb-[48px] px-[50px]">
         <h2 className="text-[35px] font-serif text-center text-[#292929] leading-11 pb-[10px]">
           Independent financial expertise for
@@ -67,6 +69,7 @@ export default function PortfolioMonitoringMentorship() {
         </div>
       </div>
 
+      {/* Bloc 2 - Are your investments in line with your decisions & An efficient monitoring */}
       <div className="flex flex-col lg:flex-row gap-1 w-full pb-1">
         <div className="bg-[#e9d7c8] w-full py-[65px]">
           <div className="lg:max-w-[490px] p-[50px] xl:p-0 mx-auto">
@@ -109,6 +112,7 @@ export default function PortfolioMonitoringMentorship() {
         </div>
       </div>
 
+      {/* Bloc 3 - Verification - Assessment - Comparison */}
       <div className="flex w-full">
         <div className="bg-[#e9d7c8] w-full py-[65px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
@@ -162,6 +166,7 @@ export default function PortfolioMonitoringMentorship() {
         </div>
       </div>
 
+      {/* Bloc 4 - Pricing */}
       <div className="pt-[51px] text-center">
         <h2 className="text-[35px] font-serif font-normal">Pricing</h2>
         <div className="font-serif italic text-[22px] pb-2">

@@ -138,6 +138,7 @@ export default function Header() {
           {/* <MobileLink href="/team" onClick={() => setOpen(false)}>
             THE TEAM
           </MobileLink> */}
+          
           <MobileLink href="/news" onClick={() => setOpen(false)}>
             NEWS
           </MobileLink>

@@ -16,6 +16,7 @@ export default function Team() {
         <div className='max-w-[1105px] h-[692px] bg-brown mx-auto flex items-center justify-center text-center'>Embed the VIDEO here</div>
       </div>
 
+      {/* Profils */}
       <div className=' mx-auto pt-[99px] pb-[37px] grid xl:grid-cols-2 gap-x-[100px] gap-y-[100px] xl:max-w-[1268px] px-5 xl:px-0'>
         <Profil
           imgAlt='Lital Puller'

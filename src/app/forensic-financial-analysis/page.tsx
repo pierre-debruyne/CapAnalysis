@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 export default function ForensicFinancialAnalysis() {
   return (
     <div>
+      {/* Hero - Forensic financial analysis */}
       <Hero
         imgSrc="/assets/images/hero_ffa.jpg"
         imgAlt=""
@@ -19,6 +20,7 @@ export default function ForensicFinancialAnalysis() {
         imgPosition="object-[35%_58%] md:object-[42%_55%]"
       />
 
+      {/* Bloc 1 - Forensic financial analysis introduction */}
       <div className="pt-[67px]">
         <h2 className="text-[35px] font-serif text-center text-[#292929] leading-11 pb-[10px]">
           Trusted by courts and legal teams, our forensic <br /> financial
@@ -30,6 +32,7 @@ export default function ForensicFinancialAnalysis() {
           Financial Expert by the Geneva Court since 2018.
         </p>
       </div>
+
       <div className="grid xl:grid-cols-3 md:grid-cols-2 px-[50px]  grid-rows-2 pb-[48px] gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
         <InfoBlock
           UppercaseText={"Damage Calculation\n"}
@@ -67,6 +70,7 @@ export default function ForensicFinancialAnalysis() {
         />
       </div>
 
+      {/* Bloc 2 - Law firm support & technical expertise */}
       <div className="flex flex-col lg:flex-row gap-1 w-full pb-1">
         <div className="bg-[#e9d7c8] w-full py-[35px] lg:py-[65px]">
           <div className="lg:max-w-[417px] lg:w-3/4 p-[50px] xl:p-0 mx-auto">
@@ -136,6 +140,7 @@ export default function ForensicFinancialAnalysis() {
         </div>
       </div>
 
+      {/* Bloc 3 - Forensic expertise steps */}
       <div className="flex w-full">
         <div className="bg-[#e9d7c8] w-full py-[65px] px-[50px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
@@ -199,6 +204,7 @@ export default function ForensicFinancialAnalysis() {
         </div>
       </div>
 
+      {/* Bloc 4 - Pricing */}
       <div className="bg-white py-[60px] px-5 2xl:px-0 h-full text-center">
         <div className="max-w-[420px] h-full mx-auto">
           <h2 className="text-[35px] font-serif text-[#292929] leading-11 pb-[10px]">

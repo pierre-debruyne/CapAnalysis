@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div>
+      {/* Hero - Uncovering the truth behind your wealth management */}
       <Hero
         imgSrc="/assets/images/hero_home.png"
         imgAlt=""
@@ -21,6 +22,7 @@ export default function Home() {
         text={`Financial bodyguard &\nindependent forensic expert`}
       />
 
+      {/* Bloc 1 - Two pillars */}
       <div className="py-[65px] flex justify-center items-center flex-col bg-white">
         <h2 className="font-serif text-[35px] ">Two pillars</h2>
         <span className="text-[#806863] text-[16px] font-ligh text-center">
@@ -31,7 +33,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col lg:flex-row gap-1 w-full lg:mb-[45px]">
-        {/*   Portfolio Monitoring & Mentorship */}
+        {/*  Bloc 2 - Portfolio Monitoring & Mentorship */}
         <div className="bg-[#e9d7c8] w-full py-[37px] px-5 lg:px-0">
           <div className="flex justify-center flex-col items-center">
             <div className="mb-5 w-[399px]">
@@ -86,7 +88,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/*  FORENSIC FINANCIAL  ANALYSIS */}
+        {/* Bloc 2 - FORENSIC FINANCIAL  ANALYSIS */}
         <div className="bg-[#e9d7c8] w-full py-[37px] px-5 lg:px-0">
           <div className="flex justify-center flex-col items-center">
             <div className="mb-5 w-[399px]">
@@ -142,6 +144,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/*  Bloc 3 - CAPAct. The forensic core of every investigation. */}
       <div className="bg-dark w-full px-[50px] py-[37px]">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="relative w-full h-[415px] lg:h-[415px]">
@@ -177,6 +180,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Bloc 4 - Exposing conflicts */}
       <div className="pt-[67px] pb-[48px] px-[50px]">
         <h2 className="text-[35px] font-serif text-center text-[#292929] pb-[67px]">
           Exposing conflicts, costs, and mismanagement
@@ -247,6 +251,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Bloc 5 - The real risk isn’t underperformance */}
       <div className="relative w-full lg:h-[415px] mb-[9px]">
         <Image
           src="/assets/images/Slide-2-1.jpg"
