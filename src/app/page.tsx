@@ -26,7 +26,7 @@ export default function Home() {
       {/* Bloc 1 - Two pillars */}
       <div className="py-[65px] flex justify-center items-center flex-col bg-white">
         <h2 className="font-serif text-[35px] ">Two pillars</h2>
-        <span className="text-[#806863] text-[16px] font-ligh text-center">
+        <span className="text-[#806863] text-[16px] font-light text-center">
           CAPAnalysis supports both proactive and reactive needs,
           <br />
           from long-term monitoring to litigation.
