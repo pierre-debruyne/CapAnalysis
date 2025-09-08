@@ -135,13 +135,13 @@ export default function Header() {
 
           <div className="h-px bg-white/10 my-3" />
 
-          {/* <MobileLink href="/team" onClick={() => setOpen(false)}>
+          <MobileLink href="/team" onClick={() => setOpen(false)}>
             THE TEAM
-          </MobileLink> */}
-          
-          <MobileLink href="/news" onClick={() => setOpen(false)}>
-            NEWS
           </MobileLink>
+          
+          {/* <MobileLink href="/news" onClick={() => setOpen(false)}>
+            NEWS
+          </MobileLink> */}
           <MobileLink href="/contact" onClick={() => setOpen(false)}>
             CONTACT
           </MobileLink>
