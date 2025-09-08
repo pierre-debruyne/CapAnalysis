@@ -20,6 +20,7 @@ export default function Home() {
         imgAlt=""
         title={`Uncovering the truth\nbehind your\nwealth management`}
         text={`Financial bodyguard &\nindependent forensic expert`}
+        imgPosition="object-[28%_58%] md:object-[42%_55%]"
       />
 
       {/* Bloc 1 - Two pillars */}
