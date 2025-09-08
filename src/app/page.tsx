@@ -183,7 +183,7 @@ export default function Home() {
 
       {/* Bloc 4 - Exposing conflicts */}
       <div className="pt-[67px] pb-[48px] px-[50px]">
-        <h2 className="text-[35px] font-serif text-center text-[#292929] pb-[67px]">
+        <h2 className="text-[35px] font-serif text-center text-[#292a2a] pb-[67px]">
           Exposing conflicts, costs, and mismanagement
           <br /> in investment portfolios.
         </h2>

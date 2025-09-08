@@ -22,11 +22,11 @@ export default function PortfolioMonitoringMentorship() {
 
       {/* Bloc 1 - Independent financial expertise for control, protection, and clarity. */}
       <div className="pt-[67px] pb-[48px] px-[50px]">
-        <h2 className="text-[35px] font-serif text-center text-[#292929] leading-11 pb-[10px]">
+        <h2 className="text-[35px] font-serif text-center text-[#292a2a] leading-11 pb-[10px]">
           Independent financial expertise for
           <br /> control, protection, and clarity.
         </h2>
-        <p className="pb-[67px] text-center text-[#806863]">
+        <p className="pb-[67px] font-sans font-light text-center text-[#806863] text-[16px]">
           CAPAnalysis is your financial bodyguard: monitoring your wealth,
           <br /> translating complexity, and ensuring your interests come first
           – always.

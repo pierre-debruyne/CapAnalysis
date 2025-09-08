@@ -16,7 +16,7 @@ export default function ForensicFinancialAnalysis() {
 
       {/* Bloc 1 - Forensic financial analysis introduction */}
       <div className='pt-[67px]'>
-        <h2 className='text-[35px] font-serif text-center text-[#292929] leading-11 pb-[10px]'>
+        <h2 className='text-[35px] font-serif text-center text-[#292a2a] leading-11 pb-[10px]'>
           Trusted by courts and legal teams, our forensic <br /> financial analysis supports litigation, mediation, <br /> and complex financial disputes.
         </h2>
         <p className='pb-[67px] font-light text-center text-[#806863]'>
@@ -133,7 +133,7 @@ export default function ForensicFinancialAnalysis() {
       {/* Bloc 4 - Pricing */}
       <div className='bg-white py-[60px] px-5 2xl:px-0 h-full text-center'>
         <div className='max-w-[420px] h-full mx-auto'>
-          <h2 className='text-[35px] font-serif text-[#292929] leading-11 pb-[10px]'>Pricing</h2>
+          <h2 className='text-[35px] font-serif text-[#292a2a] leading-11 pb-[10px]'>Pricing</h2>
           <p className='text-[16px] font-light font-sans text-[#806863] pb-[30px]'>CAPAnalysis SA invoices its forensic and analytical services based on time spent by its experts, according to the following hourly rates (excluding VAT):</p>
 
           <div className='border-y border-[#BAACA9] max-w-[350px] py-[16px] mx-auto'>
