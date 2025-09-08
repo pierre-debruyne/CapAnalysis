@@ -12,23 +12,9 @@ export default function Team() {
   return (
     <div>
       {/* Header */}
-<<<<<<< Updated upstream
-      <div className="w-full h-[692px] bg-dark mt-[95px]">
-        <div className="max-w-[1105px] h-[692px] mx-auto flex items-center justify-center text-center">
-          <video
-            className="w-full h-full object-cover"
-            src="/assets/videos/capanalysis.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            controls
-          />
-=======
       <div className='w-full h-[692px] bg-dark mt-[95px]'>
         <div className='max-w-[1105px] h-[692px] mx-auto flex items-center justify-center text-center'>
           <video className='w-full h-full object-cover' src='assets/videos/capanalysis.mp4' autoPlay loop playsInline controls />
->>>>>>> Stashed changes
         </div>
       </div>
 
