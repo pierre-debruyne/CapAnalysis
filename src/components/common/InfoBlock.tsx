@@ -11,7 +11,6 @@ type InfoBlockProps = {
   return (
     <div className="flex">
       <div className="flex flex-col items-center">
-        <ChevronRight className="text-[#BAACA9]" />
         <div className="w-px bg-[#BAACA9] flex-1 -mt-[5px] -ml-[5px]" />
       </div>
 
