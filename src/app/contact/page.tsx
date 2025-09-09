@@ -90,17 +90,17 @@ export default function Contact() {
               <Input name='subject' placeholder='Subject' className='xl:w-[394px]' value={formData.subject} onChange={handleInputChange} required />
             </div>
 
-            <Textarea name='message' placeholder='Your message' className='w-full h-[235px]' value={formData.message} onChange={handleInputChange} required />
+            <Textarea name='message' placeholder='Your message' className='w-full h-[235px] mt-4' value={formData.message} onChange={handleInputChange} required />
 
-            <div className='flex justify-between'>
+            <div className='flex justify-between mt-4'>
               <div className='flex items-center gap-[10px]'>
                 <Checkbox checked={formData.isHuman} onChange={handleCheckboxChange} />
                 <span className='text-[11px] text-[#806863] font-sans font-light'>I&apos;M HUMAN!</span>
               </div>
               <button type='submit' disabled={isSubmitting} className='flex cursor-pointer items-center uppercase gap-2 text-[11px] font-sans font-light px-1 min-h-[25px] border border-[#b7aca9] text-[#806863] transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed'>
                 <div className='flex items-center text-[#BAACA9]'>
-                  <Plus color='#b7aca9' className='w-[10px] h-[10px]' strokeWidth={1} />
-                  <ChevronRight color='#b7aca9' className='w-[14px] h-[14px] -ml-[6px]' strokeWidth={0.6} />
+                  <Plus color='#806863' className='w-[10px] h-[10px]' strokeWidth={1} />
+                  <ChevronRight color='#806863' className='w-[14px] h-[14px] -ml-[6px]' strokeWidth={1} />
                 </div>
                 <span className='whitespace-nowrap'>{isSubmitting ? "SENDING..." : "SEND MESSAGE"}</span>
               </button>
