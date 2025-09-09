@@ -37,7 +37,7 @@ export default function Home() {
         {/*  Bloc 2 - Portfolio Monitoring & Mentorship */}
         <div className="bg-[#F5EDE6] w-full py-[35px] px-[35px] md:py-[37px] md:px-5 lg:px-0">
           <div className="flex justify-center flex-col items-start md:items-center">
-            <div className="mb-5 md:w-[399px]">
+            <div className="mb-5 md:w-[427px]">
               <h2 className="text-[18px] text-[#2D2D2D] uppercase font-semibold font-sans leading-tight text-start">
                 Portfolio Monitoring
                 <br />& Mentorship
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
 
             <div className="flex gap-[50px]">
-              <div className="flex flex-col items-center justify-end">
+              <div className="flex flex-col items-center justify-start md:justify-end">
                 <div className="flex gap-2">
                   <div className="w-px h-[260px] bg-[#BAACA9]" />
                   <div className="w-px h-[260px] bg-[#BAACA9]" />
@@ -92,7 +92,7 @@ export default function Home() {
         {/* Bloc 2 - FORENSIC FINANCIAL  ANALYSIS */}
         <div className="bg-[#F5EDE6] w-full py-[35px] px-[35px] md:py-[37px] md:px-5 lg:px-0">
           <div className="flex justify-center flex-col items-start md:items-center">
-            <div className="mb-5 md:w-[399px]">
+            <div className="mb-5 md:w-[425px]">
               <h2 className="text-[18px] uppercase text-[#2D2D2D] font-semibold font-sans leading-tight text-start">
                 FORENSIC FINANCIAL
                 <br />
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
 
             <div className="flex gap-[50px]">
-              <div className="flex flex-col items-center justify-end">
+              <div className="flex flex-col items-center justify-start md:justify-end">
                 <div className="flex gap-2">
                   <div className="w-px h-[260px] bg-[#BAACA9]" />
                   <div className="w-px h-[260px] bg-[#BAACA9]" />
