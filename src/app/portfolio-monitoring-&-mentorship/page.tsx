@@ -71,7 +71,7 @@ export default function PortfolioMonitoringMentorship() {
 
       {/* Bloc 2 - Are your investments in line with your decisions & An efficient monitoring */}
       <div className="flex flex-col lg:flex-row gap-1 w-full pb-1">
-        <div className="bg-[#e9d7c8] w-full py-[35px] md:py-[65px]">
+        <div className="bg-[#F5EDE6] w-full py-[35px] md:py-[65px]">
           <div className="lg:max-w-[490px] px-[35px] md:p-[50px] xl:p-0 mx-auto">
             <h3 className="text-[23px] font-normal font-serif pb-[19px]">
               Are your investments in line with your decisions?
@@ -88,7 +88,7 @@ export default function PortfolioMonitoringMentorship() {
             </p>
           </div>
         </div>
-        <div className="bg-[#e9d7c8] w-full py-[35px] md:py-[65px]">
+        <div className="bg-[#F5EDE6] w-full py-[35px] md:py-[65px]">
           <div className="lg:max-w-[490px] px-[35px] md:p-[50px]  xl:p-0 mx-auto">
             <h3 className="font-normal font-serif text-[23px] pb-[19px]">
               An efficient monitoring
@@ -114,7 +114,7 @@ export default function PortfolioMonitoringMentorship() {
 
       {/* Bloc 3 - Verification - Assessment - Comparison */}
       <div className="flex w-full">
-        <div className="bg-[#e9d7c8] w-full py-[35px] md:py-[65px]">
+        <div className="bg-[#F5EDE6] w-full py-[35px] md:py-[65px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
             Verification - Assessment - Comparison
           </h2>

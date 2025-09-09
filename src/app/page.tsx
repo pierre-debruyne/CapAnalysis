@@ -35,7 +35,7 @@ export default function Home() {
 
       <div className="flex flex-col lg:flex-row gap-1 w-full lg:mb-[45px]">
         {/*  Bloc 2 - Portfolio Monitoring & Mentorship */}
-        <div className="bg-[#e9d7c8] w-full py-[35px] px-[35px] md:py-[37px] md:px-5 lg:px-0">
+        <div className="bg-[#F5EDE6] w-full py-[35px] px-[35px] md:py-[37px] md:px-5 lg:px-0">
           <div className="flex justify-center flex-col items-start md:items-center">
             <div className="mb-5 md:w-[399px]">
               <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start">
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
 
         {/* Bloc 2 - FORENSIC FINANCIAL  ANALYSIS */}
-        <div className="bg-[#e9d7c8] w-full py-[35px] px-[35px] md:py-[37px] md:px-5 lg:px-0">
+        <div className="bg-[#F5EDE6] w-full py-[35px] px-[35px] md:py-[37px] md:px-5 lg:px-0">
           <div className="flex justify-center flex-col items-start md:items-center">
             <div className="mb-5 md:w-[399px]">
               <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start">

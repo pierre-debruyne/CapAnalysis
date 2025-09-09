@@ -62,7 +62,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
 
       {/* Bloc 2 - Performance analysis: efficiency, innovation, risk, fees & taxes */}{" "}
       <div className="flex w-full">
-        <div className="bg-[#e9d7c8] w-full p-[35px] md:p-[50px]">
+        <div className="bg-[#F5EDE6] w-full p-[35px] md:p-[50px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
             Our analysis brings factual financial <br /> context to your
             managers’ performances
