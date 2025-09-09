@@ -11,125 +11,71 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
   return (
     <div>
       {/* CAPAct. Our proprietary analytical platform */}
-
       {/* Desktop */}
-      <Hero
-        className="hidden md:block"
-        imgSrc="/assets/images/hero/hero_capact.png"
-        imgAlt="CAPAct. Our proprietary analytical platform"
-        title={`CAPAct.\n Our proprietary\n analytical platform`}
-      />
+      <Hero className='hidden md:block' imgSrc='/assets/images/hero/hero_capact.png' imgAlt='CAPAct. Our proprietary analytical platform' title={`CAPAct.\n Our proprietary\n analytical platform`} />
       {/* Mobile */}
-      <Hero
-        className="block md:hidden"
-        imgSrc="/assets/images/hero/hero_capact_smartphone.jpg"
-        imgAlt="CAPAct. Our proprietary analytical platform"
-        title={`CAPAct.\n Our proprietary\n analytical platform`}
-      />
-
+      <Hero className='block md:hidden' imgSrc='/assets/images/hero/hero_capact_smartphone.jpg' imgAlt='CAPAct. Our proprietary analytical platform' title={`CAPAct.\n Our proprietary\n analytical platform`} />
       {/* Bloc 1 - CAPAct introduction & asset categories */}{" "}
-      <div className="py-[35px] md:pt-[45px] md:pb-[55px]">
-        <div className="lg:max-w-[692px] mx-auto flex flex-col lg:flex-row gap-[40px] px-[50px] lg:p-0">
-          <div className="font-normal font-serif text-[35px] lg:w-1/2 text-center flex flex-col justify-end">
-            <p className="leading-11 lg:pb-[5px] pb-5 text-[#2D2D2D]">
-              At the heart of CAPAnalysis lies CAPAct, our proprietary software
-              developed in-house to deliver
-              <span className="hidden lg:inline">
+      <div className='py-[35px] md:pt-[45px] md:pb-[55px]'>
+        <div className='lg:max-w-[692px] mx-auto flex flex-col lg:flex-row gap-[40px] px-[50px] lg:p-0'>
+          <div className='font-normal font-serif text-[35px] lg:w-1/2 text-center flex flex-col justify-end'>
+            <p className='leading-11 lg:pb-[5px] pb-5 text-[#2D2D2D]'>
+              At the heart of CAPAnalysis lies CAPAct, our proprietary software developed in-house to deliver
+              <span className='hidden lg:inline'>
                 <br />
               </span>
-              <span className="inline lg:hidden"> </span>
+              <span className='inline lg:hidden'> </span>
               high-precision financial analysis.
             </p>
-            <p className="font-light font-sans text-[#806863] text-[16px] text-start">
-              We have designed an intuitive and powerful suite of tools,
-              supported by robust algorithms, to meticulously track and process
-              every detail of your transactions.
-            </p>
+            <p className='font-light font-sans text-[#806863] text-[16px] text-start'>We have designed an intuitive and powerful suite of tools, supported by robust algorithms, to meticulously track and process every detail of your transactions.</p>
           </div>
-          <div className="font-light font-sans text-[#806863] text-[16px] lg:w-1/2 flex gap-[13px] flex-col">
+          <div className='font-light font-sans text-[#806863] text-[16px] lg:w-1/2 flex gap-[13px] flex-col'>
             <p>This methodology applies to two categories of assets:</p>
             <p>
-              <span className="font-semibold">Financial Investments:</span> All
-              publicly traded instruments on global financial markets.
+              <span className='font-semibold'>Financial Investments:</span> All publicly traded instruments on global financial markets.
             </p>
             <p>
-              <span className="font-semibold">Non-Financial Investments:</span>{" "}
-              Art collections, real estate, and other tangible assets.
+              <span className='font-semibold'>Non-Financial Investments:</span> Art collections, real estate, and other tangible assets.
             </p>
-            <p>
-              CAPAct consolidates and standardizes your entire investment
-              universe, across asset classes, geographies, and sectors, enabling
-              meaningful comparisons, accurate performance tracking, and
-              comprehensive risk assessment.
-            </p>
-            <p>
-              What sets CAPAct apart is its exceptional flexibility and
-              analytical depth, allowing for both granular and aggregated
-              analysis of your data, without limitation.
-            </p>
+            <p>CAPAct consolidates and standardizes your entire investment universe, across asset classes, geographies, and sectors, enabling meaningful comparisons, accurate performance tracking, and comprehensive risk assessment.</p>
+            <p>What sets CAPAct apart is its exceptional flexibility and analytical depth, allowing for both granular and aggregated analysis of your data, without limitation.</p>
           </div>
         </div>
       </div>
       {/* Bloc 2 - Performance analysis: efficiency, innovation, risk, fees & taxes */}
-      <div className="flex w-full">
-        <div className="bg-[#F5EDE6] w-full p-[35px] md:p-[50px]">
-          <h2 className="text-center text-[23px] font-serif font-normal text-[#2D2D2D]">
-            Our analysis brings factual financial{" "}
-            <br className="hidden md:block" /> context to your managers’
-            performances
+      <div className='flex w-full'>
+        <div className='bg-[#F5EDE6] w-full p-[35px] md:p-[50px]'>
+          <h2 className='text-center text-[23px] font-serif font-normal text-[#2D2D2D]'>
+            Our analysis brings factual financial <br className='hidden md:block' /> context to your managers’ performances
           </h2>
 
-          <div className="w-full mx-auto max-w-[1250px] py-[35px] flex flex-col gap-5">
-            <div className="flex flex-col gap-5 md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[980px] md:mx-auto xl:flex xl:flex-row xl:items-stretch xl:gap-0 xl:max-w-none xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
-              <div className="w-full xl:flex-1 xl:h-[142.5px] xl:flex xl:pr-[45px] text-center md:text-start">
-                <div className="md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0">
-                  <div className="text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]">
-                    Efficiency
-                  </div>
-                  <p className="font-sans font-light text-[16px] text-[#806863]">
-                    We ensure the consistent and standardised booking of all
-                    your transactions, across both financial and non-financial
-                    assets.
-                  </p>
+          <div className='w-full mx-auto max-w-[1250px] py-[35px] flex flex-col gap-5'>
+            <div className='flex flex-col gap-5 md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[980px] md:mx-auto xl:flex xl:flex-row xl:items-stretch xl:gap-0 xl:max-w-none xl:divide-x-[0.6px] xl:divide-[#BAACA9]'>
+              <div className='w-full xl:flex-1 xl:h-[142.5px] xl:flex xl:pr-[45px] text-center md:text-start'>
+                <div className='md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0'>
+                  <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Efficiency</div>
+                  <p className='font-sans font-light text-[16px] text-[#806863]'>We ensure the consistent and standardised booking of all your transactions, across both financial and non-financial assets.</p>
                 </div>
               </div>
 
-              <div className="w-full xl:flex-1 xl:h-[142.5px] xl:flex xl:px-[45px] text-center md:text-start">
-                <div className="md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0">
-                  <div className="text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]">
-                    Innovation
-                  </div>
-                  <p className="font-sans font-light text-[16px] text-[#806863]">
-                    Our proprietary system continuously monitors your wealth and
-                    delivers clear, concise monthly and ad hoc reports tailored
-                    to your needs.
-                  </p>
+              <div className='w-full xl:flex-1 xl:h-[142.5px] xl:flex xl:px-[45px] text-center md:text-start'>
+                <div className='md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0'>
+                  <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Innovation</div>
+                  <p className='font-sans font-light text-[16px] text-[#806863]'>Our proprietary system continuously monitors your wealth and delivers clear, concise monthly and ad hoc reports tailored to your needs.</p>
                 </div>
               </div>
 
-              <div className="w-full xl:flex-1 xl:h-[142.5px] xl:flex xl:px-[45px] text-center md:text-start">
-                <div className="md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0">
-                  <div className="text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]">
-                    Risk Assessment
-                  </div>
-                  <p className="font-sans font-light text-[16px] text-[#806863]">
-                    We evaluate your investment performance in real time,
-                    placing it in direct context with market trends and
-                    benchmarks.
-                  </p>
+              <div className='w-full xl:flex-1 xl:h-[142.5px] xl:flex xl:px-[45px] text-center md:text-start'>
+                <div className='md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0'>
+                  <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Risk Assessment</div>
+                  <p className='font-sans font-light text-[16px] text-[#806863]'>We evaluate your investment performance in real time, placing it in direct context with market trends and benchmarks.</p>
                 </div>
               </div>
 
-              <div className="w-full xl:flex-1 xl:h-[142.5px] xl:flex xl:pl-[45px] text-center md:text-start">
-                <div className="md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0">
-                  <div className="text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]">
-                    Fees & Taxes
-                  </div>
-                  <p className="font-sans font-light text-[16px] text-[#806863]">
-                    We harmonise and classify all financial costs, income, and
-                    expenses—by beneficiary and cost centre—for full
-                    transparency and control.
-                  </p>
+              <div className='w-full xl:flex-1 xl:h-[142.5px] xl:flex xl:pl-[45px] text-center md:text-start'>
+                <div className='md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0'>
+                  <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Fees & Taxes</div>
+                  <p className='font-sans font-light text-[16px] text-[#806863]'>We harmonise and classify all financial costs, income, and expenses, by beneficiary and cost centre, for full transparency and control.</p>
                 </div>
               </div>
             </div>
@@ -137,75 +83,48 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
         </div>
       </div>
       {/* Bloc 3 - Our safety measures*/}
-      <div className="md:pt-[51px] px-[35px] pt-[35px] text-center w-full md:px-[50px]">
-        <h2 className="text-[23px] font-serif font-normal pb-[19px] text-[#2D2D2D]">
-          Our safety measures
-        </h2>
-        <div className="font-sans font-light text-[16px] text-[#806863] pb-[8px]">
-          Your data is safe with us.
-        </div>
-        <p className="font-sans font-light text-[16px] text-[#806863] text-center px-5 2xl:px-0">
+      <div className='md:pt-[51px] px-[35px] pt-[35px] text-center w-full md:px-[50px]'>
+        <h2 className='text-[23px] font-serif font-normal pb-[19px] text-[#2D2D2D]'>Our safety measures</h2>
+        <div className='font-sans font-light text-[16px] text-[#806863] pb-[8px]'>Your data is safe with us.</div>
+        <p className='font-sans font-light text-[16px] text-[#806863] text-center px-5 2xl:px-0'>
           CAPAnalysis adheres strictly to Swiss banking secrecy laws and treats
           <br />
-          all client information with the highest level of confidentiality. To
-          ensure <br />
+          all client information with the highest level of confidentiality. To ensure <br />
           your data remains secure, we apply the following key principles:
         </p>
 
-        <div className="w-full mx-auto max-w-[1250px] py-[35px] xl:py-[70px] flex flex-col gap-5">
-          <div className="flex flex-col gap-5 md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[980px] md:mx-auto xl:flex xl:flex-row xl:items-stretch xl:gap-0 xl:max-w-none xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
-            <div className="w-full xl:flex-1 xl:h-[237px] xl:flex xl:pr-[45px] text-start">
-              <div className="md:max-w-[360px] xl:max-w-[294px] mx-auto xl:mx-0">
-                <div className="text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]">
-                  Absolute Discretion
-                </div>
-                <p className="font-sans font-light text-[16px] text-[#806863]">
-                  Discretion is at the core of our philosophy. Within our CAPAct
-                  system, clients are identified exclusively by code names.
-                </p>
+        <div className='w-full mx-auto max-w-[1250px] py-[35px] xl:py-[70px] flex flex-col gap-5'>
+          <div className='flex flex-col gap-5 md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[980px] md:mx-auto xl:flex xl:flex-row xl:items-stretch xl:gap-0 xl:max-w-none xl:divide-x-[0.6px] xl:divide-[#BAACA9]'>
+            <div className='w-full xl:flex-1 xl:h-[237px] xl:flex xl:pr-[45px] text-start'>
+              <div className='md:max-w-[360px] xl:max-w-[294px] mx-auto xl:mx-0'>
+                <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Absolute Discretion</div>
+                <p className='font-sans font-light text-[16px] text-[#806863]'>Discretion is at the core of our philosophy. Within our CAPAct system, clients are identified exclusively by code names.</p>
               </div>
             </div>
 
-            <div className="w-full xl:flex-1 xl:h-[237px] xl:flex xl:px-[34px] text-start">
-              <div className="md:max-w-[360px] xl:max-w-[294px] mx-auto xl:mx-0">
-                <div className="text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]">
-                  Data Consolidation in Switzerland
-                </div>
-                <p className="font-sans font-light text-[16px] text-[#806863]">
-                  All data consolidation activities are carried out exclusively
-                  on our premises in Geneva, Switzerland.
-                </p>
+            <div className='w-full xl:flex-1 xl:h-[237px] xl:flex xl:px-[34px] text-start'>
+              <div className='md:max-w-[360px] xl:max-w-[294px] mx-auto xl:mx-0'>
+                <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Data Consolidation in Switzerland</div>
+                <p className='font-sans font-light text-[16px] text-[#806863]'>All data consolidation activities are carried out exclusively on our premises in Geneva, Switzerland.</p>
               </div>
             </div>
 
-            <div className="w-full xl:flex-1 xl:h-full xl:flex xl:px-[34px] text-start">
-              <div className="md:max-w-[360px] xl:max-w-[294px] mx-auto xl:mx-0">
-                <div className="text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]">
-                  Secure Data Handling Process
-                </div>
-                <p className="font-sans font-light text-[16px] text-[#806863] pb-2 xl:pb-0">
-                  Our process includes three key steps:
-                </p>
-                <ul className="list-disc list-outside pl-5 font-sans font-light text-[16px] text-[#806863]">
+            <div className='w-full xl:flex-1 xl:h-full xl:flex xl:px-[34px] text-start'>
+              <div className='md:max-w-[360px] xl:max-w-[294px] mx-auto xl:mx-0'>
+                <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Secure Data Handling Process</div>
+                <p className='font-sans font-light text-[16px] text-[#806863] pb-2 xl:pb-0'>Our process includes three key steps:</p>
+                <ul className='list-disc list-outside pl-5 font-sans font-light text-[16px] text-[#806863]'>
                   <li>Data aggregation</li>
                   <li>Electronic anonymisation of transaction records.</li>
-                  <li>
-                    Physical destruction of original tickets to eliminate any
-                    residual risk.
-                  </li>
+                  <li>Physical destruction of original tickets to eliminate any residual risk.</li>
                 </ul>
               </div>
             </div>
 
-            <div className="w-full xl:flex-1 xl:h-full xl:flex xl:pl-[45px] text-start">
-              <div className="md:max-w-[360px] xl:max-w-[294px] mx-auto xl:mx-0">
-                <div className="text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]">
-                  Highly Secured Infrastructure
-                </div>
-                <p className="font-sans font-light text-[16px] text-[#806863]">
-                  All servers are hosted in a state-of-the-art, highly secured
-                  facility located entirely on Swiss territory
-                </p>
+            <div className='w-full xl:flex-1 xl:h-full xl:flex xl:pl-[45px] text-start'>
+              <div className='md:max-w-[360px] xl:max-w-[294px] mx-auto xl:mx-0'>
+                <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Highly Secured Infrastructure</div>
+                <p className='font-sans font-light text-[16px] text-[#806863]'>All servers are hosted in a state-of-the-art, highly secured facility located entirely on Swiss territory</p>
               </div>
             </div>
           </div>
