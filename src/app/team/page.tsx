@@ -56,7 +56,7 @@ export default function Team() {
         />
 
         <Profil
-          imgSrc="/assets/images/profil/imran_husein.jpeg"
+          imgSrc="/assets/images/profil/imran_husein.png"
           imgAlt="Imran Husein"
           name="Imran Husein"
           job="Head of Data Science"
