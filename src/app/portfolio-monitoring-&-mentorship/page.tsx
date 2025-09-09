@@ -11,13 +11,25 @@ export const metadata: Metadata = {
 export default function PortfolioMonitoringMentorship() {
   return (
     <div>
-      {/* Hero - Portfolio Monitoring & Mentorship */}
+      {/* Portfolio Monitoring & Mentorship */}
+
+      {/* Desktop */}
       <Hero
-        imgSrc="/assets/images/hero_pmm.jpeg"
-        imgAlt=""
+        className="hidden md:block"
+        imgSrc="/assets/images/hero/hero_pmm.jpeg"
+        imgAlt="Portfolio Monitoring & Mentorship"
         title={`Portfolio Monitoring\n& Mentorship`}
         text={`Wealth needs guardianship,\nnot just management.`}
         imgPosition="object-[10%_90%] lg:object-[20%_50%]"
+      />
+
+      {/* Mobile */}
+      <Hero
+        className="block md:hidden"
+        imgSrc="/assets/images/hero/hero_pmm_smartphone.jpg"
+        imgAlt="Portfolio Monitoring & Mentorship"
+        title={`Portfolio Monitoring\n& Mentorship`}
+        text={`Wealth needs guardianship,\nnot just management.`}
       />
 
       {/* Bloc 1 - Independent financial expertise for control, protection, and clarity. */}
@@ -168,7 +180,9 @@ export default function PortfolioMonitoringMentorship() {
 
       {/* Bloc 4 - Pricing */}
       <div className="md:pt-[51px] pt-[35px] text-center">
-        <h2 className="text-[35px] font-serif font-normal text-[#2D2D2D]">Pricing</h2>
+        <h2 className="text-[35px] font-serif font-normal text-[#2D2D2D]">
+          Pricing
+        </h2>
         <div className="font-serif italic text-[22px] pb-2 text-[#2D2D2D]">
           Tailored to your needs
         </div>

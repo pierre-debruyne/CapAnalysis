@@ -1,16 +1,25 @@
+import { cn } from "@/lib/cn";
 import Image from "next/image"
 
 type HeroProps = {
-  imgSrc: string
-  imgAlt?: string
-  title: string
-  text?: string
-  imgPosition?: string; 
-}
+  imgSrc: string;
+  imgAlt?: string;
+  title: string;
+  text?: string;
+  imgPosition?: string;
+  className?: string;
+};
 
-export default function Hero({ imgSrc, imgAlt, title, text, imgPosition }: HeroProps) {
+export default function Hero({
+  imgSrc,
+  imgAlt,
+  title,
+  text,
+  imgPosition,
+  className,
+}: HeroProps) {
   return (
-    <div className="relative w-full aspect-video min-h-[350px] md:h-[692px] overflow-x-clip mt-[87px] md:mt-0 mb-[335px] md:mb-0 xl:mt-[95px]">
+    <div className={cn( "relative w-full aspect-video min-h-[350px] md:h-[692px] overflow-x-clip mt-[87px] md:mt-0 mb-[335px] md:mb-0 xl:mt-[95px]",className)}>
       <div className="relative w-full block md:hidden bg-dark">
         <Image
           src="/assets/images/logo.png"

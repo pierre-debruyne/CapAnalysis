@@ -10,12 +10,23 @@ export const metadata: Metadata = {
 export default function CapactInnovationSoftwarePerformanceInvestments() {
   return (
     <div>
-      {/* Hero - CAPAct. Our proprietary analytical platform */}
+      {/* CAPAct. Our proprietary analytical platform */}
+
+      {/* Desktop */}
       <Hero
-        imgSrc="/assets/images/hero_capact.png"
-        imgAlt=""
+        className="hidden md:block"
+        imgSrc="/assets/images/hero/hero_capact.png"
+        imgAlt="CAPAct. Our proprietary analytical platform"
         title={`CAPAct.\n Our proprietary\n analytical platform`}
       />
+      {/* Mobile */}
+      <Hero
+        className="block md:hidden"
+        imgSrc="/assets/images/hero/hero_capact_smartphone.jpg"
+        imgAlt="CAPAct. Our proprietary analytical platform"
+        title={`CAPAct.\n Our proprietary\n analytical platform`}
+      />
+
       {/* Bloc 1 - CAPAct introduction & asset categories */}{" "}
       <div className="py-[35px] md:pt-[45px] md:pb-[55px]">
         <div className="lg:max-w-[692px] mx-auto flex flex-col lg:flex-row gap-[40px] px-[50px] lg:p-0">
@@ -59,13 +70,13 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
           </div>
         </div>
       </div>
-
       {/* Bloc 2 - Performance analysis: efficiency, innovation, risk, fees & taxes */}
       <div className="flex w-full">
         <div className="bg-[#F5EDE6] w-full p-[35px] md:p-[50px]">
           <h2 className="text-center text-[23px] font-serif font-normal text-[#2D2D2D]">
-            Our analysis brings factual financial <br className="hidden md:block" /> context to your
-            managers’ performances
+            Our analysis brings factual financial{" "}
+            <br className="hidden md:block" /> context to your managers’
+            performances
           </h2>
 
           <div className="w-full mx-auto max-w-[1250px] py-[35px] flex flex-col gap-5">
@@ -125,7 +136,6 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
           </div>
         </div>
       </div>
-
       {/* Bloc 3 - Our safety measures*/}
       <div className="md:pt-[51px] px-[35px] pt-[35px] text-center w-full md:px-[50px]">
         <h2 className="text-[23px] font-serif font-normal pb-[19px] text-[#2D2D2D]">

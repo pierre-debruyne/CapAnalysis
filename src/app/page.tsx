@@ -14,13 +14,25 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div>
-      {/* Hero - Uncovering the truth behind your wealth management */}
+      {/* Uncovering the truth behind your wealth management */}
+
+      {/* Desktop */}
       <Hero
-        imgSrc="/assets/images/hero_home.png"
-        imgAlt=""
+        className="hidden md:block"
+        imgSrc={"/assets/images/hero/hero_home.png"}
+        imgAlt="Uncovering the truth behind your wealth management"
         title={`Uncovering the truth\nbehind your\nwealth management`}
         text={`Financial bodyguard &\nindependent forensic expert`}
         imgPosition="object-[28%_58%] md:object-[42%_55%]"
+      />
+
+      {/* Mobile */}
+      <Hero
+       className="block md:hidden"
+        imgSrc={"/assets/images/hero/hero_home_smartphone.jpg"}
+        imgAlt="Uncovering the truth behind your wealth management"
+        title={`Uncovering the truth\nbehind your\nwealth management`}
+        text={`Financial bodyguard &\nindependent forensic expert`}
       />
 
       {/* Bloc 1 - Two pillars */}
@@ -302,3 +314,5 @@ export default function Home() {
     </div>
   );
 }
+
+
