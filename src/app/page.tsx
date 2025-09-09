@@ -253,29 +253,29 @@ export default function Home() {
       </div>
 
       {/* Bloc 5 - The real risk isn’t underperformance */}
-      <div className="relative w-full lg:h-[415px] mb-[9px]">
+      <div className="relative w-full aspect-video h-[544px] md:h-[415px] mb-[9px]">
         <Image
           src="/assets/images/Slide-2-1.jpg"
           alt=""
           fill
-          className="object-cover hidden lg:block "
+          className="object-cover"
           priority
         />
 
         {/* Texte en overlay */}
-        <div className="lg:absolute inset-0 h-full flex flex-col md:flex-row gap-5 bg-[#e9d7c8] py-10 lg:p-0 lg:bg-transparent justify-center lg:justify-start items-center lg:gap-[140px] lg:ml-[189px]">
-          <div className="flex flex-col items-center md:max-w-[330px] mx-auto lg:m-0 px-[35px]">
-            <h2 className="text-[35px] text-dark font-serif text-center leading-11">
+        <div className="absolute inset-0 h-full flex flex-col md:flex-row gap-5 py-10 lg:p-0 justify-start items-center lg:gap-[140px] px-[50px] md:px-0 md:ml-[50px] xl:ml-[189px]">
+          <div className="flex flex-col items-center md:max-w-[330px] mx-auto md:m-0">
+            <h2 className="text-[35px] text-dark font-serif md:text-start text-center leading-11">
               The real risk isn’t underperformance, it’s misinformation
             </h2>
-            <p className="text-brown text-[16px] font-sans text-center">
+            <p className="text-brown text-[16px] font-light font-sans md:text-start text-center">
               Wealth is more than portfolio value, it’s a reflection of trust,
               structure, and intent. When something feels off, it usually is.
             </p>
           </div>
 
           <div className="flex flex-col items-start max-w-[330px] mx-auto lg:m-0">
-            <p className="text-[16px] text-[#806863] font-sans text-center lg:text-start font-light mb-[18px]">
+            <p className="text-[16px] text-[#806863] font-sans text-center md:text-start font-light mb-[18px]">
               CAPAnalysis uncovers the underlying reality of investment
               decisions: identifying misalignments and quantifying their
               financial impact. For clients, counsel, and family offices facing
