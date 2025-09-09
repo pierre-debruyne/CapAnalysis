@@ -188,7 +188,7 @@ export default function Home() {
           <br /> in investment portfolios.
         </h2>
 
-        <div className="grid xl:grid-cols-3 md:grid-cols-2  grid-rows-2 gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2  auto-rows-auto gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
           <InfoBlock
             UppercaseText={"Rebuilds full portfolio history"}
             LowercaseText={

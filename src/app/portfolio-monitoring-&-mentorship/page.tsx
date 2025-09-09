@@ -31,7 +31,7 @@ export default function PortfolioMonitoringMentorship() {
           <br /> translating complexity, and ensuring your interests come first
           – always.
         </p>
-        <div className="grid xl:grid-cols-3 md:grid-cols-2  grid-rows-2 gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2  auto-rows-auto gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start">
           <InfoBlock
             UppercaseText={"Portfolio Oversight\n & Health Checks\n"}
             LowercaseText={
