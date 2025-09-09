@@ -175,7 +175,9 @@ export default function Home() {
               href={"/capact-innovation-software-performance-investments"}
               className="shrink-0"
             >
-              <Button>LEARN MORE</Button>
+              <Button iconColor="#BAACA9" className="text-[#BAACA9]">
+                LEARN MORE
+              </Button>
             </Link>
           </div>
         </div>
@@ -239,7 +241,8 @@ export default function Home() {
             UppercaseText={"Audits the execution\n layer"}
             LowercaseText={
               <>
-                {" "}checking that purchase and redemption prices align with market
+                {" "}
+                checking that purchase and redemption prices align with market
                 prices, coupons are paid when due and promised cash flows are
                 honored.{" "}
                 <span className="font-semibold">

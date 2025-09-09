@@ -5,9 +5,12 @@ import { ReactNode } from "react"
 type ButtonProps = {
   className?: string
   children: ReactNode
+  iconColor?: string 
 }
 
-export default function Button({ className, children }: ButtonProps) {
+export default function Button({ className, children, iconColor }: ButtonProps) {
+  const color = iconColor ?? "#b7aca9"
+
   return (
     <button
       className={cn(
@@ -16,8 +19,8 @@ export default function Button({ className, children }: ButtonProps) {
       )}
     >
       <div className="flex items-center text-[#BAACA9]">
-        <Plus color="#b7aca9" className="w-[10px] h-[10px] " strokeWidth={1} />
-        <ChevronRight color="#b7aca9" className="w-[14px] h-[14px] -ml-[6px]" strokeWidth={0.6} />
+        <Plus color={color} className="w-[10px] h-[10px]" strokeWidth={1} />
+        <ChevronRight color={color} className="w-[14px] h-[14px] -ml-[6px]" strokeWidth={0.6} />
       </div>
 
       <span className="whitespace-nowrap">{children}</span>
