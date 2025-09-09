@@ -12,7 +12,7 @@ export default function ForensicFinancialAnalysis() {
   return (
     <div>
       {/* Hero - Forensic financial analysis */}
-      <Hero imgSrc='/assets/images/hero_ffa.jpg' imgAlt='' title={`Forensic financial\n analysis`} text={`When things go wrong, we bring clarity,\n evidence, and impact.`} imgPosition='object-[65%_35%] md:object-[42%_55%]' />
+      <Hero imgSrc='/assets/images/hero_ffa.png' imgAlt='' title={`Forensic financial\n analysis`} text={`When things go wrong, we bring clarity,\n evidence, and impact.`} imgPosition='object-[65%_35%] md:object-[42%_55%]' />
 
       {/* Bloc 1 - Forensic financial analysis introduction */}
       <div className='md:pt-[67px] pt-[35px]'>
