@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { AtSign, Linkedin, Smartphone } from "lucide-react";
+import { Linkedin } from "lucide-react";
 import Link from "next/link";
 
 type ProfilProps = {
