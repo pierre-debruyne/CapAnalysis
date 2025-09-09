@@ -21,7 +21,7 @@ export default function PortfolioMonitoringMentorship() {
       />
 
       {/* Bloc 1 - Independent financial expertise for control, protection, and clarity. */}
-      <div className="pt-[67px] pb-[48px] px-[50px]">
+      <div className="md:pt-[67px] md:pb-[48px] p-[35px] md:px-[50px]">
         <h2 className="text-[35px] font-serif text-center text-[#292a2a] leading-11 pb-[10px]">
           Independent financial expertise for
           <br /> control, protection, and clarity.
@@ -71,8 +71,8 @@ export default function PortfolioMonitoringMentorship() {
 
       {/* Bloc 2 - Are your investments in line with your decisions & An efficient monitoring */}
       <div className="flex flex-col lg:flex-row gap-1 w-full pb-1">
-        <div className="bg-[#e9d7c8] w-full py-[65px]">
-          <div className="lg:max-w-[490px] p-[50px] xl:p-0 mx-auto">
+        <div className="bg-[#e9d7c8] w-full py-[35px] md:py-[65px]">
+          <div className="lg:max-w-[490px] px-[35px] md:p-[50px] xl:p-0 mx-auto">
             <h3 className="text-[23px] font-normal font-serif pb-[19px]">
               Are your investments in line with your decisions?
             </h3>
@@ -88,8 +88,8 @@ export default function PortfolioMonitoringMentorship() {
             </p>
           </div>
         </div>
-        <div className="bg-[#e9d7c8] w-full py-[65px]">
-          <div className="lg:max-w-[490px] p-[50px]  xl:p-0 mx-auto">
+        <div className="bg-[#e9d7c8] w-full py-[35px] md:py-[65px]">
+          <div className="lg:max-w-[490px] px-[35px] md:p-[50px]  xl:p-0 mx-auto">
             <h3 className="font-normal font-serif text-[23px] pb-[19px]">
               An efficient monitoring
             </h3>
@@ -114,11 +114,11 @@ export default function PortfolioMonitoringMentorship() {
 
       {/* Bloc 3 - Verification - Assessment - Comparison */}
       <div className="flex w-full">
-        <div className="bg-[#e9d7c8] w-full py-[65px]">
+        <div className="bg-[#e9d7c8] w-full py-[35px] md:py-[65px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
             Verification - Assessment - Comparison
           </h2>
-          <div className="w-full mx-auto max-w-[1166px] px-[50px] py-[35px] flex flex-col gap-5 md:grid md:grid-cols-2 md:justify-items-center xl:flex xl:flex-row xl:items-stretch xl:gap-0 xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
+          <div className="w-full mx-auto max-w-[1166px] px-[35px] md:px-[50px] py-[35px] flex flex-col gap-5 md:grid md:grid-cols-2 md:justify-items-center xl:flex xl:flex-row xl:items-stretch xl:gap-0 xl:divide-x-[0.6px] xl:divide-[#BAACA9]">
             <div className="w-full md:w-auto xl:flex-1 xl:h-full xl:flex xl:pr-[45px] text-center xl:text-start md:justify-self-center">
               <div className="md:max-w-[360px] xl:max-w-[297px] mx-auto xl:mx-0">
                 <div className="text-[15px] uppercase font-sans font-semibold">
@@ -167,7 +167,7 @@ export default function PortfolioMonitoringMentorship() {
       </div>
 
       {/* Bloc 4 - Pricing */}
-      <div className="pt-[51px] text-center">
+      <div className="md:pt-[51px] pt-[35px] text-center">
         <h2 className="text-[35px] font-serif font-normal">Pricing</h2>
         <div className="font-serif italic text-[22px] pb-2">
           Tailored to your needs
@@ -178,7 +178,7 @@ export default function PortfolioMonitoringMentorship() {
           and volume of the following elements:
         </p>
 
-        <div className="w-full mx-auto max-w-[1472px] py-[70px] flex flex-col gap-10 px-[50px]">
+        <div className="w-full mx-auto max-w-[1472px] p-[35px] md:py-[70px] flex flex-col gap-10 md:px-[50px]">
           <div className="flex flex-col gap-5  md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[900px] md:mx-auto 2xl:flex 2xl:flex-row 2xl:items-stretch 2xl:gap-0 2xl:max-w-none 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]">
             <div className="md:max-w-[360px] 2xl:max-w-[294px] w-full mx-auto text-center md:text-start 2xl:flex-1 2xl:px-[34px]">
               <div className="text-[15px] uppercase font-sans font-semibold">

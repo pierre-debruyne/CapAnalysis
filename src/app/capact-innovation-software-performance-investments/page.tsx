@@ -17,7 +17,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
         title={`CAPAct.\n Our proprietary\n analytical platform`}
       />
       {/* Bloc 1 - CAPAct introduction & asset categories */}{" "}
-      <div className="pt-[45px] pb-[55px]">
+      <div className="py-[35px] md:pt-[45px] md:pb-[55px]">
         <div className="lg:max-w-[692px] mx-auto flex flex-col lg:flex-row gap-[40px] px-[50px] lg:p-0">
           <div className="font-normal font-serif text-[35px] lg:w-1/2 text-center flex flex-col justify-end">
             <p className="leading-10 lg:pb-[5px] pb-5">
@@ -62,7 +62,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
 
       {/* Bloc 2 - Performance analysis: efficiency, innovation, risk, fees & taxes */}{" "}
       <div className="flex w-full">
-        <div className="bg-[#e9d7c8] w-full p-[50px]">
+        <div className="bg-[#e9d7c8] w-full p-[35px] md:p-[50px]">
           <h2 className="text-center text-[23px] font-serif font-normal">
             Our analysis brings factual financial <br /> context to your
             managers’ performances
@@ -127,7 +127,7 @@ export default function CapactInnovationSoftwarePerformanceInvestments() {
       </div>
 
       {/* Bloc 3 - Our safety measures*/}
-      <div className="pt-[51px] text-center w-full px-[50px]">
+      <div className="md:pt-[51px] px-[35px] pt-[35px] text-center w-full md:px-[50px]">
         <h2 className="text-[23px] font-serif font-normal pb-[19px]">
           Our safety measures
         </h2>

@@ -28,7 +28,7 @@ export default function Team() {
       </div>
 
       {/* Profils */}
-      <div className=" mx-auto pt-[99px] pb-[37px] grid xl:grid-cols-2 gap-x-[100px] gap-y-[100px] xl:max-w-[1268px] px-5 xl:px-0">
+      <div className=" mx-auto pt-[35px] pb-[35px] md:pt-[99px] md:pb-[37px] grid xl:grid-cols-2 gap-x-[100px] gap-y-[35px] md:gap-y-[100px] xl:max-w-[1268px] px-5 xl:px-0">
         <Profil
           imgAlt="Lital Puller"
           imgSrc="/assets/images/profil/LP_Website.jpg"

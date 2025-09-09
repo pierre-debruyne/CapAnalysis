@@ -15,7 +15,7 @@ export default function ForensicFinancialAnalysis() {
       <Hero imgSrc='/assets/images/hero_ffa.jpg' imgAlt='' title={`Forensic financial\n analysis`} text={`When things go wrong, we bring clarity,\n evidence, and impact.`} imgPosition='object-[65%_35%] md:object-[42%_55%]' />
 
       {/* Bloc 1 - Forensic financial analysis introduction */}
-      <div className='pt-[67px]'>
+      <div className='md:pt-[67px] pt-[35px]'>
         <h2 className='text-[35px] font-serif text-center text-[#292a2a] leading-11 pb-[10px]'>
           Trusted by courts and legal teams, our forensic <br /> financial analysis supports litigation, mediation, <br /> and complex financial disputes.
         </h2>
@@ -25,7 +25,7 @@ export default function ForensicFinancialAnalysis() {
         </p>
       </div>
 
-      <div className='grid xl:grid-cols-3 md:grid-cols-2 px-[50px]  grid-rows-2 pb-[48px] gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start'>
+      <div className='grid xl:grid-cols-3 md:grid-cols-2 px-[35px] pb-[35px] md:px-[50px] grid-rows-2 md:pb-[48px] gap-x-[170px] gap-y-[60px] max-w-max mx-auto items-start'>
         <InfoBlock UppercaseText={"Damage Calculation\n"} LowercaseText={"Using our proprietary tool CAPAct, we quantify financial harm in cases of mismanagement, hidden fees, and strategy drift."} />
         <InfoBlock UppercaseText={"Expert Witness &\n Litigation Support\n"} LowercaseText={"Court-ready analysis, including testimony in cases involving portfolio mismanagement, abuse of leverage, and product mis-selling."} />
         <InfoBlock UppercaseText={`Fee & Risk Profiling\n Audits\n`} LowercaseText={"Are your bank’s actions aligned with your stated risk profile? We find out, and prove it."} />
@@ -39,7 +39,7 @@ export default function ForensicFinancialAnalysis() {
       {/* Bloc 2 - Law firm support & technical expertise */}
       <div className='flex flex-col lg:flex-row gap-1 w-full pb-1'>
         <div className='bg-[#e9d7c8] w-full py-[35px] lg:py-[65px]'>
-          <div className='lg:max-w-[417px] lg:w-3/4 p-[50px] xl:p-0 mx-auto'>
+          <div className='lg:max-w-[417px] lg:w-3/4 px-[35px] md:p-[50px] xl:p-0 mx-auto'>
             <h3 className='text-[23px] font-normal font-serif pb-[19px]'>We regularly assist Law Firms in cases which involve:</h3>
 
             <div className='flex flex-col lg:flex-row text-[#806863] font-light font-sans text-[16px] xl:gap-5'>
@@ -63,7 +63,7 @@ export default function ForensicFinancialAnalysis() {
           </div>
         </div>
         <div className='bg-[#e9d7c8] w-full py-[35px] lg:py-[65px]'>
-          <div className='lg:max-w-[417px] lg:w-3/4 p-[50px] xl:p-0 mx-auto'>
+          <div className='lg:max-w-[417px] lg:w-3/4 px-[35px] md:p-[50px] xl:p-0 mx-auto'>
             <h3 className='font-normal font-serif text-[23px] pb-[19px]'>We are proficient in several technical products involving:</h3>
             <div className='flex flex-col lg:flex-row justify-between text-[#806863] font-light font-sans text-[16px] xl:gap-5'>
               <ul className='list-disc list-outside pl-5'>
@@ -84,7 +84,7 @@ export default function ForensicFinancialAnalysis() {
         </div>
       </div>
 
-      <div className='bg-dark py-[49px] px-5 2xl:px-0'>
+      <div className='bg-dark p-[35px] md:py-[49px] md:px-5 2xl:px-0'>
         <div className='max-w-[564px] mx-auto text-[23px] text-white text-center'>
           <p className='mb-[15px] font-serif'>The development of CAPAct enables us to perform a variety of simulations, to compare various scenarios, and perform damage calculations</p>
           <p className="font-serif">Our expertise is also solicited to arbitrate between parties to find an agreeable settlement.</p>
@@ -93,7 +93,7 @@ export default function ForensicFinancialAnalysis() {
 
       {/* Bloc 3 - Forensic expertise steps */}
       <div className='flex w-full'>
-        <div className='bg-[#e9d7c8] w-full py-[65px] px-[50px]'>
+        <div className='bg-[#e9d7c8] w-full p-[35px] md:py-[65px] md:px-[50px]'>
           <h2 className='text-center text-[23px] font-serif font-normal'>Our role as Forensic Financial Experts:</h2>
 
           <div className='w-full mx-auto max-w-[1450px] py-[35px] flex flex-col gap-5'>
@@ -131,7 +131,7 @@ export default function ForensicFinancialAnalysis() {
       </div>
 
       {/* Bloc 4 - Pricing */}
-      <div className='bg-white py-[60px] px-5 2xl:px-0 h-full text-center'>
+      <div className='bg-white md:py-[60px] p-[35px] md:px-5 2xl:px-0 h-full text-center'>
         <div className='max-w-[420px] h-full mx-auto'>
           <h2 className='text-[35px] font-serif text-[#292a2a] leading-11 pb-[10px]'>Pricing</h2>
           <p className='text-[16px] font-light font-sans text-[#806863] pb-[30px]'>CAPAnalysis SA invoices its forensic and analytical services based on time spent by its experts, according to the following hourly rates (excluding VAT):</p>

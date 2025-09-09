@@ -24,7 +24,7 @@ export default function Home() {
       />
 
       {/* Bloc 1 - Two pillars */}
-      <div className="py-[65px] flex justify-center items-center flex-col bg-white">
+      <div className="py-[35px] md:py-[65px] flex justify-center items-center flex-col bg-white">
         <h2 className="font-serif text-[35px] ">Two pillars</h2>
         <span className="text-[#806863] text-[16px] font-light text-center">
           CAPAnalysis supports both proactive and reactive needs,
@@ -35,7 +35,7 @@ export default function Home() {
 
       <div className="flex flex-col lg:flex-row gap-1 w-full lg:mb-[45px]">
         {/*  Bloc 2 - Portfolio Monitoring & Mentorship */}
-        <div className="bg-[#e9d7c8] w-full py-[37px] px-5 lg:px-0">
+        <div className="bg-[#e9d7c8] w-full py-[35px] px-[35px] md:py-[37px] md:px-5 lg:px-0">
           <div className="flex justify-center flex-col items-start md:items-center">
             <div className="mb-5 md:w-[399px]">
               <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start">
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
 
         {/* Bloc 2 - FORENSIC FINANCIAL  ANALYSIS */}
-        <div className="bg-[#e9d7c8] w-full py-[37px] px-5 lg:px-0">
+        <div className="bg-[#e9d7c8] w-full py-[35px] px-[35px] md:py-[37px] md:px-5 lg:px-0">
           <div className="flex justify-center flex-col items-start md:items-center">
             <div className="mb-5 md:w-[399px]">
               <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start">
@@ -146,7 +146,7 @@ export default function Home() {
       </div>
 
       {/*  Bloc 3 - CAPAct. The forensic core of every investigation. */}
-      <div className="bg-dark w-full pb-[37px] px-[50px] md:py-[37px]">
+      <div className="bg-dark w-full pb-[35px] py-[35px] px-[35px] md:pb-[37px] md:px-[50px] md:py-[37px]">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="relative w-full h-[300px] md:h-[415px]">
             <Image
@@ -182,8 +182,8 @@ export default function Home() {
       </div>
 
       {/* Bloc 4 - Exposing conflicts */}
-      <div className="pt-[67px] pb-[48px] px-[50px]">
-        <h2 className="text-[35px] font-serif text-center text-[#292a2a] pb-[67px]">
+      <div className="md:pt-[67px] md:pb-[48px] md:px-[50px] p-[35px]">
+        <h2 className="text-[35px] font-serif text-center text-[#292a2a] pb-[35px] md:pb-[67px]">
           Exposing conflicts, costs, and mismanagement
           <br /> in investment portfolios.
         </h2>
@@ -263,7 +263,7 @@ export default function Home() {
         />
 
         {/* Texte en overlay */}
-        <div className="absolute inset-0 h-full flex flex-col md:flex-row gap-5 py-10 lg:p-0 justify-start items-center lg:gap-[140px] px-[50px] md:px-0 md:ml-[50px] xl:ml-[189px]">
+        <div className="absolute inset-0 h-full flex flex-col md:flex-row gap-5 md:py-10 py-[35px] lg:p-0 justify-start items-center lg:gap-[140px] px-[35px] md:px-0 md:ml-[50px] xl:ml-[189px]">
           <div className="flex flex-col items-center md:max-w-[330px] mx-auto md:m-0">
             <h2 className="text-[35px] text-dark font-serif md:text-start text-center leading-11">
               The real risk isn’t underperformance, it’s misinformation
