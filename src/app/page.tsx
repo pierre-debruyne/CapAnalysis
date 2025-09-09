@@ -191,12 +191,12 @@ export default function Home() {
       </div>
 
       {/* Bloc 5 - The real risk isn’t underperformance */}
-      <div className='relative w-full aspect-video h-[544px] md:h-[415px] mb-[9px]'>
+      <div className="relative w-full aspect-video h-[544px] md:h-[415px] mb-[9px] [@media(min-width:300px)_and_(max-width:400px)]:h-[650px]">
         <Image src='/assets/images/Slide-2-1.jpg' alt='' fill className='object-cover' priority />
 
         {/* Texte en overlay */}
         <div className='absolute inset-0 h-full flex flex-col md:flex-row gap-5 md:py-10 py-[35px] lg:p-0 justify-start items-center lg:gap-[140px] px-[35px] md:px-0 md:ml-[50px] xl:ml-[189px]'>
-          <div className='flex flex-col items-center md:max-w-[330px] mx-auto md:m-0'>
+          <div className='flex flex-col items-center w-full md:max-w-[330px] mx-auto md:m-0'>
             <h2 className='text-[35px] text-[#2D2D2D] font-serif md:text-start text-center leading-11'>The real risk isn’t underperformance, it’s misinformation</h2>
             <p className='text-brown text-[16px] font-light font-sans md:text-start text-center'>Wealth is more than portfolio value, it’s a reflection of trust, structure, and intent. When something feels off, it usually is.</p>
           </div>
