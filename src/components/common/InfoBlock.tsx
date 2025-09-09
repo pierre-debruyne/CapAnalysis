@@ -15,7 +15,7 @@ type InfoBlockProps = {
       </div>
 
       <div className="md:max-w-[276px] ml-3">
-        <span className="uppercase whitespace-pre-line font-sans font-semibold text-[18px]">
+        <span className="uppercase text-[#2D2D2D] whitespace-pre-line font-sans font-semibold text-[18px]">
           {UppercaseText}
         </span>
         <span className="font-light font-sans text-[16px] text-[#806863]">

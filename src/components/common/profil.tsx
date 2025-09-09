@@ -69,9 +69,9 @@ export default function Profil({
         </div>
 
         <div className="flex flex-col justify-start xl:max-w-[334px] sm:w-2/3">
-          <h2 className="font-serif text-[23px] font-normal mb-[16px]">{name}</h2>
-          <span className="font-sans font-semibold">{job}</span>
-          <span className="font-sans font-semibold whitespace-pre-line mb-[10px]">{title_job}</span>
+          <h2 className="font-serif text-[23px] font-normal mb-[16px] text-[#2D2D2D]">{name}</h2>
+          <span className="font-sans font-semibold text-[#2D2D2D]">{job}</span>
+          <span className="font-sans font-semibold whitespace-pre-line mb-[10px] text-[#2D2D2D]">{title_job}</span>
           <span className="font-sans text-[16px] font-light text-[#806863] whitespace-pre-line">
             {resume}
           </span>

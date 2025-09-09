@@ -16,7 +16,7 @@ export default function ForensicFinancialAnalysis() {
 
       {/* Bloc 1 - Forensic financial analysis introduction */}
       <div className='md:pt-[67px] pt-[35px]'>
-        <h2 className='text-[35px] font-serif text-center text-[#292a2a] leading-11 pb-[10px]'>
+        <h2 className='text-[35px] font-serif text-center text-[#2D2D2D] leading-11 pb-[10px]'>
           Trusted by courts and legal teams, our forensic <br /> financial analysis supports litigation, mediation, <br /> and complex financial disputes.
         </h2>
         <p className='pb-[67px] font-light text-center text-[#806863]'>
@@ -40,7 +40,7 @@ export default function ForensicFinancialAnalysis() {
       <div className='flex flex-col lg:flex-row gap-1 w-full pb-1'>
         <div className='bg-[#e9d7c8] w-full py-[35px] lg:py-[65px]'>
           <div className='lg:max-w-[417px] lg:w-3/4 px-[35px] md:p-[50px] xl:p-0 mx-auto'>
-            <h3 className='text-[23px] font-normal font-serif pb-[19px]'>We regularly assist Law Firms in cases which involve:</h3>
+            <h3 className='text-[23px] font-normal font-serif pb-[19px] text-[#2D2D2D]'>We regularly assist Law Firms in cases which involve:</h3>
 
             <div className='flex flex-col lg:flex-row text-[#806863] font-light font-sans text-[16px] xl:gap-5'>
               <ul className='list-disc list-outside pl-5 lg:w-2/4'>
@@ -64,7 +64,7 @@ export default function ForensicFinancialAnalysis() {
         </div>
         <div className='bg-[#e9d7c8] w-full py-[35px] lg:py-[65px]'>
           <div className='lg:max-w-[417px] lg:w-3/4 px-[35px] md:p-[50px] xl:p-0 mx-auto'>
-            <h3 className='font-normal font-serif text-[23px] pb-[19px]'>We are proficient in several technical products involving:</h3>
+            <h3 className='font-normal font-serif text-[23px] pb-[19px] text-[#2D2D2D]'>We are proficient in several technical products involving:</h3>
             <div className='flex flex-col lg:flex-row justify-between text-[#806863] font-light font-sans text-[16px] xl:gap-5'>
               <ul className='list-disc list-outside pl-5'>
                 <li>Structured products: RKOF, Pivot, TARF, TARPF, BRC, etc.</li>
@@ -94,34 +94,34 @@ export default function ForensicFinancialAnalysis() {
       {/* Bloc 3 - Forensic expertise steps */}
       <div className='flex w-full'>
         <div className='bg-[#e9d7c8] w-full p-[35px] md:py-[65px] md:px-[50px]'>
-          <h2 className='text-center text-[23px] font-serif font-normal'>Our role as Forensic Financial Experts:</h2>
+          <h2 className='text-center text-[23px] font-serif font-normal text-[#2D2D2D]'>Our role as Forensic Financial Experts:</h2>
 
           <div className='w-full mx-auto max-w-[1450px] py-[35px] flex flex-col gap-5'>
             <div className='flex flex-col gap-5 md:grid md:grid-cols-2 md:gap-10 md:justify-items-center md:max-w-[980px] md:mx-auto 2xl:flex 2xl:flex-row 2xl:items-stretch 2xl:gap-0 2xl:max-w-none 2xl:divide-x-[0.6px] 2xl:divide-[#BAACA9]'>
               <div className='w-full 2xl:flex-1 2xl:h-[142.5px] 2xl:flex 2xl:pr-[45px] text-center md:text-start'>
                 <div className='md:max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0'>
-                  <div className='text-[15px] uppercase font-sans font-semibold'>Portfolio Consolidation</div>
+                  <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Portfolio Consolidation</div>
                   <p className='font-sans font-light text-[16px] text-[#806863]'>We reconstruct and consolidate the portfolio in which the loss occurred, with a specific focus on the relevant time period.</p>
                 </div>
               </div>
 
               <div className='w-full 2xl:flex-1 2xl:h-[142.5px] 2xl:flex 2xl:px-[45px] text-center md:text-start'>
                 <div className='md:max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0'>
-                  <div className='text-[15px] uppercase font-sans font-semibold'>Preliminary Report</div>
+                  <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Preliminary Report</div>
                   <p className='font-sans font-light text-[16px] text-[#806863]'>We submit a detailed preliminary report to the legal team, identifying and explaining all factors that contributed to the loss.</p>
                 </div>
               </div>
 
               <div className='w-full 2xl:flex-1 2xl:h-[142.5px] 2xl:flex 2xl:px-[45px] text-center md:text-start'>
                 <div className='md:max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0'>
-                  <div className='text-[15px] uppercase font-sans font-semibold'>Damage Assessment</div>
+                  <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Damage Assessment</div>
                   <p className='font-sans font-light text-[16px] text-[#806863]'>In close collaboration with the lawyer(s), we quantify the financial damage based on objective, documented evidence.</p>
                 </div>
               </div>
 
               <div className='w-full 2xl:flex-1 2xl:h-[142.5px] 2xl:flex 2xl:pl-[45px] text-center md:text-start'>
                 <div className='md:max-w-[360px] 2xl:max-w-[297px] mx-auto 2xl:mx-0'>
-                  <div className='text-[15px] uppercase font-sans font-semibold'>Final Expert Report</div>
+                  <div className='text-[15px] uppercase font-sans font-semibold text-[#2D2D2D]'>Final Expert Report</div>
                   <p className='font-sans font-light text-[16px] text-[#806863]'>We draft the final expert report independently for use in court proceedings, ensuring it aligns with legal arguments and meets all evidentiary standards.</p>
                 </div>
               </div>
@@ -133,16 +133,16 @@ export default function ForensicFinancialAnalysis() {
       {/* Bloc 4 - Pricing */}
       <div className='bg-white md:py-[60px] p-[35px] md:px-5 2xl:px-0 h-full text-center'>
         <div className='max-w-[420px] h-full mx-auto'>
-          <h2 className='text-[35px] font-serif text-[#292a2a] leading-11 pb-[10px]'>Pricing</h2>
+          <h2 className='text-[35px] font-serif text-[#2D2D2D] leading-11 pb-[10px] '>Pricing</h2>
           <p className='text-[16px] font-light font-sans text-[#806863] pb-[30px]'>CAPAnalysis SA invoices its forensic and analytical services based on time spent by its experts, according to the following hourly rates (excluding VAT):</p>
 
           <div className='border-y border-[#BAACA9] max-w-[350px] py-[16px] mx-auto'>
             <div className='grid grid-cols-2 grid-rows-2 '>
-              <span className='uppercase font-semibold font-sans text-[15px text-start'>Partners</span>
+              <span className='uppercase font-semibold font-sans text-[15px text-start text-[#2D2D2D]'>Partners</span>
               <span className='text-[#BAACA9] font-light font-sans text-[16px] '>CHF 400.– / hour</span>
-              <span className='uppercase font-semibold font-sans text-[15px] text-start'>Senior Experts</span>
+              <span className='uppercase font-semibold font-sans text-[15px] text-start text-[#2D2D2D]'>Senior Experts</span>
               <span className='text-[#BAACA9] font-light font-sans text-[16px]'>CHF 300.– / hour</span>
-              <span className='uppercase font-semibold font-sans text-[15px] text-start'>Junior Analysts</span>
+              <span className='uppercase font-semibold font-sans text-[15px] text-start text-[#2D2D2D]'>Junior Analysts</span>
               <span className='text-[#BAACA9] font-light font-sans text-[16px]'>CHF 200.– / hour</span>
             </div>
           </div>

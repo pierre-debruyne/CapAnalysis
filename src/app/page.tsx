@@ -25,7 +25,7 @@ export default function Home() {
 
       {/* Bloc 1 - Two pillars */}
       <div className="py-[35px] md:py-[65px] flex justify-center items-center flex-col bg-white">
-        <h2 className="font-serif text-[35px] ">Two pillars</h2>
+        <h2 className="font-serif text-[35px] text-[#2D2D2D]">Two pillars</h2>
         <span className="text-[#806863] text-[16px] font-light text-center">
           CAPAnalysis supports both proactive and reactive needs,
           <br />
@@ -38,7 +38,7 @@ export default function Home() {
         <div className="bg-[#F5EDE6] w-full py-[35px] px-[35px] md:py-[37px] md:px-5 lg:px-0">
           <div className="flex justify-center flex-col items-start md:items-center">
             <div className="mb-5 md:w-[399px]">
-              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start">
+              <h2 className="text-[18px] text-[#2D2D2D] uppercase font-semibold font-sans leading-tight text-start">
                 Portfolio Monitoring
                 <br />& Mentorship
               </h2>
@@ -57,7 +57,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col gap-[13px] justify-end">
-                <p className="font-sans text-[16px]">
+                <p className="font-sans text-[16px] text-[#2D2D2D]">
                   Consolidation and strategic oversight for <br /> private
                   portfolios.
                 </p>
@@ -93,7 +93,7 @@ export default function Home() {
         <div className="bg-[#F5EDE6] w-full py-[35px] px-[35px] md:py-[37px] md:px-5 lg:px-0">
           <div className="flex justify-center flex-col items-start md:items-center">
             <div className="mb-5 md:w-[399px]">
-              <h2 className="text-[18px] uppercase font-semibold font-sans leading-tight text-start">
+              <h2 className="text-[18px] uppercase text-[#2D2D2D] font-semibold font-sans leading-tight text-start">
                 FORENSIC FINANCIAL
                 <br />
                 ANALYSIS
@@ -113,7 +113,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col gap-[13px] justify-end">
-                <p className="font-sans text-[16px]">
+                <p className="font-sans text-[16px] text-[#2D2D2D]">
                   Trusted by courts and legal teams <br /> since 2018
                 </p>
                 <ul className="list-disc pl-5 space-y-1">
@@ -159,11 +159,11 @@ export default function Home() {
           </div>
 
           <div className="w-full flex flex-col items-center">
-            <h2 className=" font-serif font-normal text-[35px] text-center text-white">
+            <h2 className=" font-serif font-normal text-[35px] leading-11 text-center text-white">
               CAPAct.
               <br /> The forensic core of <br /> every investigation.
             </h2>
-            <p className="text-[#BAACA9] mt-[10px] mb-[28px] text-center">
+            <p className="text-[#BAACA9] mt-[10px] mb-[28px] text-center font-light">
               Behind every analysis, every model, and every strategic alert is{" "}
               <br />
               CAPAct: CAPAnalysis’ proprietary software for reconstructing{" "}
@@ -183,7 +183,7 @@ export default function Home() {
 
       {/* Bloc 4 - Exposing conflicts */}
       <div className="md:pt-[67px] md:pb-[48px] md:px-[50px] p-[35px]">
-        <h2 className="text-[35px] font-serif text-center text-[#292a2a] pb-[35px] md:pb-[67px]">
+        <h2 className="text-[35px] font-serif text-center text-[#2D2D2D] pb-[35px] md:pb-[67px] leading-11">
           Exposing conflicts, costs, and mismanagement
           <br /> in investment portfolios.
         </h2>
@@ -239,7 +239,7 @@ export default function Home() {
             UppercaseText={"Audits the execution\n layer"}
             LowercaseText={
               <>
-                checking that purchase and redemption prices align with market
+                {" "}checking that purchase and redemption prices align with market
                 prices, coupons are paid when due and promised cash flows are
                 honored.{" "}
                 <span className="font-semibold">
@@ -265,7 +265,7 @@ export default function Home() {
         {/* Texte en overlay */}
         <div className="absolute inset-0 h-full flex flex-col md:flex-row gap-5 md:py-10 py-[35px] lg:p-0 justify-start items-center lg:gap-[140px] px-[35px] md:px-0 md:ml-[50px] xl:ml-[189px]">
           <div className="flex flex-col items-center md:max-w-[330px] mx-auto md:m-0">
-            <h2 className="text-[35px] text-dark font-serif md:text-start text-center leading-11">
+            <h2 className="text-[35px] text-[#2D2D2D] font-serif md:text-start text-center leading-11">
               The real risk isn’t underperformance, it’s misinformation
             </h2>
             <p className="text-brown text-[16px] font-light font-sans md:text-start text-center">
