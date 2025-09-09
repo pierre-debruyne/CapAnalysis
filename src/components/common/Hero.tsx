@@ -25,12 +25,12 @@ export default function Hero({ imgSrc, imgAlt, title, text, imgPosition }: HeroP
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
                text-center w-full px-6"
         >
-          <h2 className="whitespace-pre-line text-beige text-[35px] pb-[15px] font-serif font-normal leading-none">
+          <h1 className="whitespace-pre-line text-[#E9D7C8] text-[35px] pb-[15px] font-serif font-normal leading-none">
             {title}
-          </h2>
-          <p className="whitespace-pre-line text-beige md:text-[21px] mx-8 font-sans font-light leading-none">
+          </h1>
+          <h2 className="whitespace-pre-line text-[#B4AAA7] md:text-[21px] mx-8 font-sans font-thin leading-none">
             {text}
-          </p>
+          </h2>
         </div>
       </div>
       <div className="w-full lg:flex h-full">
@@ -57,12 +57,12 @@ export default function Hero({ imgSrc, imgAlt, title, text, imgPosition }: HeroP
         />
 
         <div className=" absolute inset-0 flex flex-col items-center justify-center text-center 2xl:ml-[50px] max-w-[900px] mx-auto">
-          <h2 className="whitespace-pre-line w-full text-beige text-[35px] xl:text-[60px] pb-[45px] font-serif font-normal leading-none">
+          <h1 className="whitespace-pre-line w-full text-[#E9D7C8] text-[35px] xl:text-[60px] pb-[45px] font-serif font-normal leading-none">
             {title}
-          </h2>
-          <p className="whitespace-pre-line text-beige text-[21px] mx-20 font-sans font-light leading-none">
+          </h1>
+          <h2 className="whitespace-pre-line text-[#B4AAA7] text-[21px] mx-20 font-sans font-thin leading-none">
             {text}
-          </p>
+          </h2>
         </div>
       </div>
     </div>
