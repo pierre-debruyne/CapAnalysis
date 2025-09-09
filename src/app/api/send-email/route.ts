@@ -24,8 +24,8 @@ export async function POST(request: NextRequest) {
 
     // Send email
     const { data, error } = await resend.emails.send({
-      from: "CapAnalysis Contact <info@capanalysis.ch>",
-      to: ["pierre.debruyne@me.com"],
+      from: "CapAnalysis Contact <noreply@capanalysis.ch>",
+      to: ["info@capanalysis.ch"],
       subject: `New contact message: ${subject}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
