@@ -7,7 +7,7 @@ export default function Footer() {
     <div className='w-full lg:h-[73px] bg-dark flex lg:flex-row flex-col justify-center p-5 gap-5 lg:gap-[35px] items-center mx-auto'>
       <div className='flex gap-2'>
         <MapPin className='text-brown hidden lg:block' />
-        <span className='text-[16px] font-sans font-light text-white text-center'>118 rue du Rhône - 1204 Geneva - Switzerland</span>
+        <span className='text-[16px] font-sans font-light text-white text-center'>118 rue du Rhône - 1204 Geneva - Switzerland.</span>
       </div>
       <div className='flex gap-2'>
         <Smartphone className='text-brown hidden lg:block' />

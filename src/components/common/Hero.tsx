@@ -44,13 +44,13 @@ export default function Hero({
       </div>
       <div className="w-full lg:flex h-full">
         <div className="xl:w-[69%] w-full relative h-full">
-          <Image
+          <img
             src={imgSrc}
             alt={imgAlt || title}
-            fill
-            className={["object-cover bg-dark", imgPosition]
-              .filter(Boolean)
-              .join(" ")}
+            className={cn(
+              "block w-full h-full object-cover bg-dark",
+              imgPosition
+            )}
           />
         </div>
         <div className="bg-dark w-[31%] xl:block hidden" />
