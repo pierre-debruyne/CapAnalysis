@@ -19,7 +19,7 @@ export default function Hero({
   className,
 }: HeroProps) {
   return (
-    <div className={cn( "relative w-full aspect-video min-h-[350px] md:h-[692px] overflow-x-clip mt-[87px] md:mt-0 mb-[335px] md:mb-0 xl:mt-[95px]",className)}>
+    <div className={cn( "relative w-full min-h-[350px] md:h-[692px] overflow-x-clip mt-[87px] md:mt-0 md:mb-0 xl:mt-[95px]",className)}>
       <div className="relative w-full block md:hidden bg-dark">
         <Image
           src="/assets/images/logo.png"
